@@ -1,0 +1,126 @@
+[1.587s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test']
+[1.587s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test', build_base='build', install_base='install', merge_install=False, test_result_base=None, retest_until_fail=0, retest_until_pass=0, abort_on_error=False, return_code_on_test_failure=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], ctest_args=None, python_testing=None, pytest_args=None, pytest_with_coverage=False, unittest_args=None, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79f8c6a7f0e0>, verb_extension=<colcon_core.verb.test.TestVerb object at 0x79f8c6bf6270>, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0x79f8c6bf6270>>, mixin_verb=('test',))
+[1.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.769s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jizzy/ros_ws'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/MyFirstPackage) by extensions ['ignore', 'ignore_ament_install']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/MyFirstPackage) by extension 'ignore'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/MyFirstPackage) by extension 'ignore_ament_install'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/MyFirstPackage) by extensions ['colcon_pkg']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/MyFirstPackage) by extension 'colcon_pkg'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/MyFirstPackage) by extensions ['colcon_meta']
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/MyFirstPackage) by extension 'colcon_meta'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/MyFirstPackage) by extensions ['ros']
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/MyFirstPackage) by extension 'ros'
+[1.910s] DEBUG:colcon.colcon_core.package_identification:Package 'src/MyFirstPackage' with type 'ros.ament_python' and name 'MyFirstPackage'
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[1.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[1.922s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[1.923s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.923s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.923s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.923s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.923s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'MyFirstPackage' test argument 'ctest_args' from command line to 'None'
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'MyFirstPackage' test argument 'python_testing' from command line to 'None'
+[1.936s] Level 5:colcon.colcon_core.verb:set package 'MyFirstPackage' test argument 'pytest_args' from command line to 'None'
+[1.936s] Level 5:colcon.colcon_core.verb:set package 'MyFirstPackage' test argument 'pytest_with_coverage' from command line to 'False'
+[1.936s] Level 5:colcon.colcon_core.verb:set package 'MyFirstPackage' test argument 'unittest_args' from command line to 'None'
+[1.936s] Level 5:colcon.colcon_core.verb:set package 'MyFirstPackage' test argument 'retest_until_pass' from command line to '0'
+[1.936s] Level 5:colcon.colcon_core.verb:set package 'MyFirstPackage' test argument 'retest_until_fail' from command line to '0'
+[1.936s] DEBUG:colcon.colcon_core.verb.test:Testing package 'MyFirstPackage' with the following arguments: {'build_base': '/home/jizzy/ros_ws/build/MyFirstPackage', 'ctest_args': None, 'install_base': '/home/jizzy/ros_ws/install/MyFirstPackage', 'path': '/home/jizzy/ros_ws/src/MyFirstPackage', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' test argument 'ctest_args' from command line to 'None'
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' test argument 'python_testing' from command line to 'None'
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' test argument 'pytest_args' from command line to 'None'
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' test argument 'pytest_with_coverage' from command line to 'False'
+[1.939s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' test argument 'unittest_args' from command line to 'None'
+[1.939s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' test argument 'retest_until_pass' from command line to '0'
+[1.939s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' test argument 'retest_until_fail' from command line to '0'
+[1.939s] DEBUG:colcon.colcon_core.verb.test:Testing package 'turtlesim' with the following arguments: {'build_base': '/home/jizzy/ros_ws/build/turtlesim', 'ctest_args': None, 'install_base': '/home/jizzy/ros_ws/install/turtlesim', 'path': '/home/jizzy/ros_ws/src/ros_tutorials/turtlesim', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.939s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.944s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.946s] INFO:colcon.colcon_ros.task.ament_python.test:Testing ROS package in '/home/jizzy/ros_ws/src/MyFirstPackage' with build type'ament_python'
+[1.947s] INFO:colcon.colcon_core.task.python.test:Testing Python package in '/home/jizzy/ros_ws/src/MyFirstPackage'
+[1.958s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.959s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.959s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.985s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/jizzy/ros_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[1.985s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/jizzy/ros_ws/src/ros_tutorials/turtlesim'
+[1.986s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.987s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.238s] Level 1:colcon.colcon_core.task.python.test:test() by extension 'pytest'
+[3.238s] Level 1:colcon.colcon_core.task.python.test:test.step() by extension 'pytest'
+[3.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jizzy/ros_ws/src/MyFirstPackage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jizzy/ros_ws/build/MyFirstPackage/pytest.xml --junit-prefix=MyFirstPackage -o cache_dir=/home/jizzy/ros_ws/build/MyFirstPackage/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[3.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jizzy/ros_ws/build/turtlesim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jizzy/ros_ws/install/turtlesim/lib/python3.12/site-packages:/home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[8.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jizzy/ros_ws/src/MyFirstPackage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jizzy/ros_ws/build/MyFirstPackage/pytest.xml --junit-prefix=MyFirstPackage -o cache_dir=/home/jizzy/ros_ws/build/MyFirstPackage/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[17.700s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.703s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.703s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.704s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jizzy/ros_ws/build/turtlesim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jizzy/ros_ws/install/turtlesim/lib/python3.12/site-packages:/home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[17.748s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.748s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.748s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.822s] DEBUG:colcon.colcon_core.event_reactor:joined thread

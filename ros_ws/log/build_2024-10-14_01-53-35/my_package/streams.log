@@ -1,0 +1,26 @@
+[8.653s] Invoking command in '/home/jizzy/ros_ws/src/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jizzy/ros_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/jizzy/ros_ws/build/my_package/build install --record /home/jizzy/ros_ws/build/my_package/install.log --single-version-externally-managed install_data
+[11.185s] running egg_info
+[11.391s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[11.398s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[11.399s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[11.400s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[11.404s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[11.707s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[11.708s] adding license file 'LICENSE'
+[11.715s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[11.718s] running build
+[11.718s] running build_py
+[11.719s] copying my_package/run_cricle_command.py -> /home/jizzy/ros_ws/build/my_package/build/lib/my_package
+[11.719s] running install
+[11.795s] running install_lib
+[11.951s] copying /home/jizzy/ros_ws/build/my_package/build/lib/my_package/run_cricle_command.py -> /home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages/my_package
+[11.959s] byte-compiling /home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages/my_package/run_cricle_command.py to run_cricle_command.cpython-312.pyc
+[11.973s] running install_data
+[11.974s] running install_egg_info
+[12.124s] removing '/home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info' (and everything under it)
+[12.131s] Copying ../../build/my_package/my_package.egg-info to /home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info
+[12.143s] running install_scripts
+[13.037s] Installing my_node script to /home/jizzy/ros_ws/install/my_package/lib/my_package
+[13.040s] Installing run_circle_command script to /home/jizzy/ros_ws/install/my_package/lib/my_package
+[13.053s] writing list of installed files to '/home/jizzy/ros_ws/build/my_package/install.log'
+[13.451s] Invoked command in '/home/jizzy/ros_ws/src/my_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jizzy/ros_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/jizzy/ros_ws/build/my_package/build install --record /home/jizzy/ros_ws/build/my_package/install.log --single-version-externally-managed install_data

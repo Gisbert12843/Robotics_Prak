@@ -1,0 +1,51 @@
+[1.269s] Invoking command in '/home/jizzy/ros_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jizzy/ros_ws/install/MyFirstPackage:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jizzy/ros_ws/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jizzy/ros_ws/install/turtlesim
+[1.429s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.638s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.183s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.361s] -- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+[2.391s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.759s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.845s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.974s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.625s] -- Found rcl_interfaces: 2.0.2 (/opt/ros/jazzy/share/rcl_interfaces/cmake)
+[4.010s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.211s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.229s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.679s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.020s] -- Found rclcpp_action: 28.1.5 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[5.408s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[5.505s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.513s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[7.500s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[8.623s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.970s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.977s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[10.501s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[10.655s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[10.712s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.726s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.740s] -- Configured cppcheck include dirs: /home/jizzy/ros_ws/src/ros_tutorials/turtlesim/include
+[10.744s] -- Configured cppcheck exclude dirs and/or files: 
+[10.756s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.759s] -- Configured cpplint exclude dirs and/or files: 
+[10.762s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.763s] -- Configured 'flake8' exclude dirs and/or files: 
+[10.766s] -- Added test 'lint_cmake' to check CMake code style
+[10.767s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.769s] -- Added test 'uncrustify' to check C / C++ code style
+[10.770s] -- Configured uncrustify additional arguments: 
+[10.773s] -- Added test 'xmllint' to check XML markup files
+[10.789s] -- Configuring done (9.5s)
+[11.182s] -- Generating done (0.3s)
+[11.203s] -- Build files have been written to: /home/jizzy/ros_ws/build/turtlesim
+[11.266s] Invoked command in '/home/jizzy/ros_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jizzy/ros_ws/install/MyFirstPackage:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jizzy/ros_ws/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jizzy/ros_ws/install/turtlesim
+[11.271s] Invoking command in '/home/jizzy/ros_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jizzy/ros_ws/install/MyFirstPackage:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jizzy/ros_ws/build/turtlesim -- -j2 -l2
+[11.519s] [  0%] Built target turtlesim__rosidl_generator_type_description
+[11.527s] failed to create symbolic link '/home/jizzy/ros_ws/build/turtlesim/ament_cmake_python/turtlesim/turtlesim' because existing path cannot be removed: Is a directory
+[11.530s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_turtlesim] Error 1
+[11.530s] gmake[1]: *** [CMakeFiles/Makefile2:460: CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/all] Error 2
+[11.531s] gmake[1]: *** Waiting for unfinished jobs....
+[11.621s] [  1%] Built target turtlesim__cpp
+[11.622s] gmake: *** [Makefile:146: all] Error 2
+[11.630s] Invoked command in '/home/jizzy/ros_ws/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jizzy/ros_ws/install/MyFirstPackage:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jizzy/ros_ws/build/turtlesim -- -j2 -l2

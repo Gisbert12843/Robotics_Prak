@@ -1,0 +1,361 @@
+[0.000000] (-) TimerEvent: {}
+[0.003066] (MyFirstPackage) JobQueued: {'identifier': 'MyFirstPackage', 'dependencies': OrderedDict({'MyFirstPackage': '/home/jizzy/ros_ws/install/MyFirstPackage'})}
+[0.003272] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict({'turtlesim': '/home/jizzy/ros_ws/install/turtlesim'})}
+[0.003872] (MyFirstPackage) JobStarted: {'identifier': 'MyFirstPackage'}
+[0.044045] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.099580] (-) TimerEvent: {}
+[0.201023] (-) TimerEvent: {}
+[0.301924] (-) TimerEvent: {}
+[0.403634] (-) TimerEvent: {}
+[0.506319] (-) TimerEvent: {}
+[0.609397] (-) TimerEvent: {}
+[0.713194] (-) TimerEvent: {}
+[0.814871] (-) TimerEvent: {}
+[0.915617] (-) TimerEvent: {}
+[1.016566] (-) TimerEvent: {}
+[1.117480] (-) TimerEvent: {}
+[1.218410] (-) TimerEvent: {}
+[1.298017] (MyFirstPackage) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/jizzy/ros_ws/src/MyFirstPackage', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jizzy', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jizzy/ros_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jizzy', 'OLDPWD': '/home/jizzy/ros_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2056', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jizzy/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jizzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jizzy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jizzy-wallach-lap:@/tmp/.ICE-unix/2017,unix/jizzy-wallach-lap:/tmp/.ICE-unix/2017', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7221223d_aead_49fd_9f5f_9350a1763165', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FTSGV2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.236', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/jizzy/ros_ws/install/MyFirstPackage:/home/jizzy/ros_ws/install/turtlesim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jizzy/ros_ws/build/MyFirstPackage', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages:/home/jizzy/ros_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/jizzy/ros_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'PYTHONDONTWRITEBYTECODE': '1', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/jizzy/ros_ws/build/MyFirstPackage/pytest.xml --junit-prefix=MyFirstPackage -o cache_dir=/home/jizzy/ros_ws/build/MyFirstPackage/.pytest_cache'}, 'shell': False}
+[1.318650] (-) TimerEvent: {}
+[1.423361] (-) TimerEvent: {}
+[1.524136] (-) TimerEvent: {}
+[1.625003] (-) TimerEvent: {}
+[1.726850] (-) TimerEvent: {}
+[1.752297] (turtlesim) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/jizzy/ros_ws/build/turtlesim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jizzy', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jizzy/ros_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jizzy', 'OLDPWD': '/home/jizzy/ros_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2056', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jizzy/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jizzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jizzy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jizzy-wallach-lap:@/tmp/.ICE-unix/2017,unix/jizzy-wallach-lap:/tmp/.ICE-unix/2017', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7221223d_aead_49fd_9f5f_9350a1763165', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FTSGV2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.236', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/jizzy/ros_ws/install/MyFirstPackage:/home/jizzy/ros_ws/install/turtlesim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jizzy/ros_ws/build/turtlesim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jizzy/ros_ws/install/turtlesim/lib/python3.12/site-packages:/home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/jizzy/ros_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[1.792426] (turtlesim) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/jizzy/ros_ws/build/turtlesim/CTestConfiguration.ini\n'}
+[1.793210] (turtlesim) StdoutLine: {'line': b'Parse Config file:/home/jizzy/ros_ws/build/turtlesim/CTestConfiguration.ini\n'}
+[1.795175] (turtlesim) StdoutLine: {'line': b'   Site: jizzy-wallach-lap\n'}
+[1.795831] (turtlesim) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[1.797180] (turtlesim) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[1.797981] (turtlesim) StdoutLine: {'line': b'Create new tag: 20241013-2037 - Experimental\n'}
+[1.798849] (turtlesim) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/jizzy/ros_ws/build/turtlesim/CTestConfiguration.ini\n'}
+[1.799680] (turtlesim) StdoutLine: {'line': b'Parse Config file:/home/jizzy/ros_ws/build/turtlesim/CTestConfiguration.ini\n'}
+[1.800697] (turtlesim) StdoutLine: {'line': b'Test project /home/jizzy/ros_ws/build/turtlesim\n'}
+[1.801812] (turtlesim) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[1.806175] (turtlesim) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[1.807877] (turtlesim) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[1.808498] (turtlesim) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[1.810375] (turtlesim) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[1.811095] (turtlesim) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[1.812213] (turtlesim) StdoutLine: {'line': b'test 1\n'}
+[1.815215] (turtlesim) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[1.815799] (turtlesim) StdoutLine: {'line': b'\n'}
+[1.816253] (turtlesim) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/copyright.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/jizzy/ros_ws/build/turtlesim/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/copyright.xunit.xml"\n'}
+[1.816677] (turtlesim) StdoutLine: {'line': b'1: Working Directory: /home/jizzy/ros_ws/src/ros_tutorials/turtlesim\n'}
+[1.817296] (turtlesim) StdoutLine: {'line': b'1: Test timeout computed to be: 200\n'}
+[1.828930] (-) TimerEvent: {}
+[1.929662] (-) TimerEvent: {}
+[2.031855] (-) TimerEvent: {}
+[2.132567] (-) TimerEvent: {}
+[2.220302] (turtlesim) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/jizzy/ros_ws/src/ros_tutorials/turtlesim':\n"}
+[2.223216] (turtlesim) StdoutLine: {'line': b'1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/copyright.xunit.xml\n'}
+[2.232754] (-) TimerEvent: {}
+[2.333418] (-) TimerEvent: {}
+[2.436150] (-) TimerEvent: {}
+[2.536905] (-) TimerEvent: {}
+[2.637574] (-) TimerEvent: {}
+[2.740237] (-) TimerEvent: {}
+[2.844185] (-) TimerEvent: {}
+[2.944867] (-) TimerEvent: {}
+[3.045545] (-) TimerEvent: {}
+[3.149237] (-) TimerEvent: {}
+[3.249940] (-) TimerEvent: {}
+[3.351324] (-) TimerEvent: {}
+[3.452052] (-) TimerEvent: {}
+[3.555245] (-) TimerEvent: {}
+[3.658173] (-) TimerEvent: {}
+[3.759226] (-) TimerEvent: {}
+[3.862131] (-) TimerEvent: {}
+[3.962842] (-) TimerEvent: {}
+[4.063528] (-) TimerEvent: {}
+[4.143963] (MyFirstPackage) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[4.144678] (MyFirstPackage) StdoutLine: {'line': b'platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0\n'}
+[4.164442] (-) TimerEvent: {}
+[4.167307] (MyFirstPackage) StdoutLine: {'line': b'cachedir: /home/jizzy/ros_ws/build/MyFirstPackage/.pytest_cache\n'}
+[4.170023] (MyFirstPackage) StdoutLine: {'line': b'rootdir: /home/jizzy/ros_ws/src/MyFirstPackage\n'}
+[4.170629] (MyFirstPackage) StdoutLine: {'line': b'plugins: ament-flake8-0.17.1, launch-testing-3.4.2, ament-xmllint-0.17.1, ament-lint-0.17.1, ament-pep257-0.17.1, launch-testing-ros-0.26.5, ament-copyright-0.17.1, cov-4.1.0, colcon-core-0.18.1\n'}
+[4.264611] (-) TimerEvent: {}
+[4.367235] (-) TimerEvent: {}
+[4.468054] (-) TimerEvent: {}
+[4.571233] (-) TimerEvent: {}
+[4.674126] (-) TimerEvent: {}
+[4.774848] (-) TimerEvent: {}
+[4.844954] (MyFirstPackage) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[4.855714] (MyFirstPackage) StdoutLine: {'line': b'collecting 0 items                                                             \x1b[0m\x1b[1m\n'}
+[4.856658] (MyFirstPackage) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[4.860875] (MyFirstPackage) StdoutLine: {'line': b'\n'}
+[4.876843] (-) TimerEvent: {}
+[4.907675] (MyFirstPackage) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[4.977010] (-) TimerEvent: {}
+[5.077655] (-) TimerEvent: {}
+[5.180222] (-) TimerEvent: {}
+[5.229280] (turtlesim) StdoutLine: {'line': b'1: No problems found, checked 11 files\n'}
+[5.280396] (-) TimerEvent: {}
+[5.307291] (turtlesim) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[5.308004] (turtlesim) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/copyright.xunit.xml'\n"}
+[5.357092] (turtlesim) StdoutLine: {'line': b'1/8 Test #1: copyright ........................   Passed    3.54 sec\n'}
+[5.357796] (turtlesim) StdoutLine: {'line': b'test 2\n'}
+[5.358253] (turtlesim) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[5.358678] (turtlesim) StdoutLine: {'line': b'\n'}
+[5.361405] (turtlesim) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/cppcheck.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/jizzy/ros_ws/build/turtlesim/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/cppcheck.xunit.xml" "--include_dirs" "/home/jizzy/ros_ws/src/ros_tutorials/turtlesim/include"\n'}
+[5.361968] (turtlesim) StdoutLine: {'line': b'2: Working Directory: /home/jizzy/ros_ws/src/ros_tutorials/turtlesim\n'}
+[5.362414] (turtlesim) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[5.380553] (-) TimerEvent: {}
+[5.481266] (-) TimerEvent: {}
+[5.583849] (-) TimerEvent: {}
+[5.656467] (turtlesim) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/jizzy/ros_ws/src/ros_tutorials/turtlesim':\n"}
+[5.657144] (turtlesim) StdoutLine: {'line': b'2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/cppcheck.xunit.xml --include_dirs /home/jizzy/ros_ws/src/ros_tutorials/turtlesim/include\n'}
+[5.684019] (-) TimerEvent: {}
+[5.784711] (-) TimerEvent: {}
+[5.885966] (-) TimerEvent: {}
+[5.914131] (MyFirstPackage) StdoutLine: {'line': b'test/test_flake8.py \x1b[32m.\x1b[0m\x1b[32m                                                    [ 66%]\x1b[0m\n'}
+[5.987857] (-) TimerEvent: {}
+[6.017571] (MyFirstPackage) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[32m                                                    [100%]\x1b[0m\n'}
+[6.018244] (MyFirstPackage) StdoutLine: {'line': b'\n'}
+[6.021878] (MyFirstPackage) StdoutLine: {'line': b'---- generated xml file: /home/jizzy/ros_ws/build/MyFirstPackage/pytest.xml ----\n'}
+[6.022506] (MyFirstPackage) StdoutLine: {'line': b'\x1b[32m========================= \x1b[32m\x1b[1m2 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m\x1b[32m in 1.88s\x1b[0m\x1b[32m =========================\x1b[0m\n'}
+[6.089950] (-) TimerEvent: {}
+[6.190791] (-) TimerEvent: {}
+[6.293267] (-) TimerEvent: {}
+[6.394062] (-) TimerEvent: {}
+[6.398222] (MyFirstPackage) CommandEnded: {'returncode': 0}
+[6.400225] (MyFirstPackage) JobEnded: {'identifier': 'MyFirstPackage', 'rc': 0}
+[6.434213] (turtlesim) StdoutLine: {'line': b'2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[6.495957] (-) TimerEvent: {}
+[6.513164] (turtlesim) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[6.520158] (turtlesim) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/cppcheck.xunit.xml'\n"}
+[6.566963] (turtlesim) StdoutLine: {'line': b'2/8 Test #2: cppcheck .........................   Passed    1.21 sec\n'}
+[6.568016] (turtlesim) StdoutLine: {'line': b'test 3\n'}
+[6.568548] (turtlesim) StdoutLine: {'line': b'    Start 3: cpplint\n'}
+[6.569334] (turtlesim) StdoutLine: {'line': b'\n'}
+[6.569838] (turtlesim) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/cpplint.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/jizzy/ros_ws/build/turtlesim/ament_cpplint/cpplint.txt" "--command" "/opt/ros/jazzy/bin/ament_cpplint" "--xunit-file" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/cpplint.xunit.xml"\n'}
+[6.570383] (turtlesim) StdoutLine: {'line': b'3: Working Directory: /home/jizzy/ros_ws/src/ros_tutorials/turtlesim\n'}
+[6.570894] (turtlesim) StdoutLine: {'line': b'3: Test timeout computed to be: 120\n'}
+[6.596030] (-) TimerEvent: {}
+[6.699587] (-) TimerEvent: {}
+[6.801383] (-) TimerEvent: {}
+[6.858057] (turtlesim) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/jizzy/ros_ws/src/ros_tutorials/turtlesim':\n"}
+[6.860102] (turtlesim) StdoutLine: {'line': b'3:  - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/cpplint.xunit.xml\n'}
+[6.901632] (-) TimerEvent: {}
+[7.003885] (-) TimerEvent: {}
+[7.104563] (-) TimerEvent: {}
+[7.205855] (-) TimerEvent: {}
+[7.308091] (-) TimerEvent: {}
+[7.409345] (-) TimerEvent: {}
+[7.513381] (-) TimerEvent: {}
+[7.617363] (-) TimerEvent: {}
+[7.719288] (-) TimerEvent: {}
+[7.823665] (-) TimerEvent: {}
+[7.927668] (-) TimerEvent: {}
+[8.031400] (-) TimerEvent: {}
+[8.136408] (-) TimerEvent: {}
+[8.240461] (-) TimerEvent: {}
+[8.342301] (-) TimerEvent: {}
+[8.446478] (-) TimerEvent: {}
+[8.548283] (-) TimerEvent: {}
+[8.649853] (-) TimerEvent: {}
+[8.691253] (turtlesim) StdoutLine: {'line': b"3: Using '--root=..' argument\n"}
+[8.692489] (turtlesim) StdoutLine: {'line': b'3: \n'}
+[8.694980] (turtlesim) StdoutLine: {'line': b'3: Done processing /home/jizzy/ros_ws/src/ros_tutorials/turtlesim/tutorials/draw_square.cpp\n'}
+[8.695550] (turtlesim) StdoutLine: {'line': b'3: \n'}
+[8.696024] (turtlesim) StdoutLine: {'line': b'3: Done processing /home/jizzy/ros_ws/src/ros_tutorials/turtlesim/tutorials/mimic.cpp\n'}
+[8.696552] (turtlesim) StdoutLine: {'line': b'3: \n'}
+[8.698208] (turtlesim) StdoutLine: {'line': b'3: Done processing /home/jizzy/ros_ws/src/ros_tutorials/turtlesim/tutorials/teleop_turtle_key.cpp\n'}
+[8.698651] (turtlesim) StdoutLine: {'line': b'3: \n'}
+[8.699116] (turtlesim) StdoutLine: {'line': b"3: Using '--root=/home/jizzy/ros_ws/src/ros_tutorials/turtlesim/include' argument\n"}
+[8.699528] (turtlesim) StdoutLine: {'line': b'3: \n'}
+[8.699970] (turtlesim) StdoutLine: {'line': b'3: Done processing /home/jizzy/ros_ws/src/ros_tutorials/turtlesim/include/turtlesim/qos.hpp\n'}
+[8.700389] (turtlesim) StdoutLine: {'line': b'3: \n'}
+[8.700820] (turtlesim) StdoutLine: {'line': b'3: Done processing /home/jizzy/ros_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle.hpp\n'}
+[8.701251] (turtlesim) StdoutLine: {'line': b'3: \n'}
+[8.701656] (turtlesim) StdoutLine: {'line': b'3: Done processing /home/jizzy/ros_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle_frame.hpp\n'}
+[8.702108] (turtlesim) StdoutLine: {'line': b'3: \n'}
+[8.702522] (turtlesim) StdoutLine: {'line': b"3: Using '--root=/home/jizzy/ros_ws/src/ros_tutorials/turtlesim/src' argument\n"}
+[8.702965] (turtlesim) StdoutLine: {'line': b'3: \n'}
+[8.703383] (turtlesim) StdoutLine: {'line': b'3: Done processing /home/jizzy/ros_ws/src/ros_tutorials/turtlesim/src/turtle.cpp\n'}
+[8.703814] (turtlesim) StdoutLine: {'line': b'3: \n'}
+[8.704238] (turtlesim) StdoutLine: {'line': b'3: Done processing /home/jizzy/ros_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp\n'}
+[8.704646] (turtlesim) StdoutLine: {'line': b'3: \n'}
+[8.705092] (turtlesim) StdoutLine: {'line': b'3: Done processing /home/jizzy/ros_ws/src/ros_tutorials/turtlesim/src/turtlesim.cpp\n'}
+[8.705505] (turtlesim) StdoutLine: {'line': b'3: \n'}
+[8.706057] (turtlesim) StdoutLine: {'line': b'3: No problems found\n'}
+[8.750282] (-) TimerEvent: {}
+[8.769248] (turtlesim) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[8.770461] (turtlesim) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/cpplint.xunit.xml'\n"}
+[8.819315] (turtlesim) StdoutLine: {'line': b'3/8 Test #3: cpplint ..........................   Passed    2.25 sec\n'}
+[8.820580] (turtlesim) StdoutLine: {'line': b'test 4\n'}
+[8.821635] (turtlesim) StdoutLine: {'line': b'    Start 4: flake8\n'}
+[8.822764] (turtlesim) StdoutLine: {'line': b'\n'}
+[8.823753] (turtlesim) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/flake8.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/jizzy/ros_ws/build/turtlesim/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/flake8.xunit.xml"\n'}
+[8.824912] (turtlesim) StdoutLine: {'line': b'4: Working Directory: /home/jizzy/ros_ws/src/ros_tutorials/turtlesim\n'}
+[8.825981] (turtlesim) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[8.850534] (-) TimerEvent: {}
+[8.952187] (-) TimerEvent: {}
+[9.053970] (-) TimerEvent: {}
+[9.100277] (turtlesim) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/jizzy/ros_ws/src/ros_tutorials/turtlesim':\n"}
+[9.102875] (turtlesim) StdoutLine: {'line': b'4:  - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/flake8.xunit.xml\n'}
+[9.154142] (-) TimerEvent: {}
+[9.256310] (-) TimerEvent: {}
+[9.358032] (-) TimerEvent: {}
+[9.462521] (-) TimerEvent: {}
+[9.564314] (-) TimerEvent: {}
+[9.666400] (-) TimerEvent: {}
+[9.768086] (-) TimerEvent: {}
+[9.872538] (-) TimerEvent: {}
+[9.976421] (-) TimerEvent: {}
+[10.079535] (-) TimerEvent: {}
+[10.184485] (-) TimerEvent: {}
+[10.261886] (turtlesim) StdoutLine: {'line': b'4: \n'}
+[10.262533] (turtlesim) StdoutLine: {'line': b'4: 2 files checked\n'}
+[10.263089] (turtlesim) StdoutLine: {'line': b'4: No problems found\n'}
+[10.263535] (turtlesim) StdoutLine: {'line': b'4: \n'}
+[10.264303] (turtlesim) StdoutLine: {'line': b'4: Checked files:\n'}
+[10.264815] (turtlesim) StdoutLine: {'line': b'4: \n'}
+[10.265264] (turtlesim) StdoutLine: {'line': b'4: * ./src/turtlesim/__init__.py\n'}
+[10.265693] (turtlesim) StdoutLine: {'line': b'4: * ./launch/multisim.launch.py\n'}
+[10.284705] (-) TimerEvent: {}
+[10.386588] (-) TimerEvent: {}
+[10.420533] (turtlesim) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[10.423361] (turtlesim) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/flake8.xunit.xml'\n"}
+[10.475879] (turtlesim) StdoutLine: {'line': b'4/8 Test #4: flake8 ...........................   Passed    1.66 sec\n'}
+[10.478488] (turtlesim) StdoutLine: {'line': b'test 5\n'}
+[10.481070] (turtlesim) StdoutLine: {'line': b'    Start 5: lint_cmake\n'}
+[10.482933] (turtlesim) StdoutLine: {'line': b'\n'}
+[10.484680] (turtlesim) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/lint_cmake.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/jizzy/ros_ws/build/turtlesim/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/lint_cmake.xunit.xml"\n'}
+[10.486574] (turtlesim) StdoutLine: {'line': b'5: Working Directory: /home/jizzy/ros_ws/src/ros_tutorials/turtlesim\n'}
+[10.488337] (-) TimerEvent: {}
+[10.489359] (turtlesim) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[10.588821] (-) TimerEvent: {}
+[10.692411] (-) TimerEvent: {}
+[10.758339] (turtlesim) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/jizzy/ros_ws/src/ros_tutorials/turtlesim':\n"}
+[10.760907] (turtlesim) StdoutLine: {'line': b'5:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/lint_cmake.xunit.xml\n'}
+[10.792529] (-) TimerEvent: {}
+[10.893375] (-) TimerEvent: {}
+[10.995156] (-) TimerEvent: {}
+[11.099467] (-) TimerEvent: {}
+[11.167056] (turtlesim) StdoutLine: {'line': b'5: \n'}
+[11.167778] (turtlesim) StdoutLine: {'line': b'5: No problems found\n'}
+[11.199691] (-) TimerEvent: {}
+[11.237875] (turtlesim) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[11.241217] (turtlesim) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/lint_cmake.xunit.xml'\n"}
+[11.293166] (turtlesim) StdoutLine: {'line': b'5/8 Test #5: lint_cmake .......................   Passed    0.82 sec\n'}
+[11.295244] (turtlesim) StdoutLine: {'line': b'test 6\n'}
+[11.296504] (turtlesim) StdoutLine: {'line': b'    Start 6: pep257\n'}
+[11.297824] (turtlesim) StdoutLine: {'line': b'\n'}
+[11.299019] (turtlesim) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/pep257.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/jizzy/ros_ws/build/turtlesim/ament_pep257/pep257.txt" "--command" "/opt/ros/jazzy/bin/ament_pep257" "--xunit-file" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/pep257.xunit.xml"\n'}
+[11.300219] (-) TimerEvent: {}
+[11.303115] (turtlesim) StdoutLine: {'line': b'6: Working Directory: /home/jizzy/ros_ws/src/ros_tutorials/turtlesim\n'}
+[11.304449] (turtlesim) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[11.400603] (-) TimerEvent: {}
+[11.504403] (-) TimerEvent: {}
+[11.584162] (turtlesim) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/jizzy/ros_ws/src/ros_tutorials/turtlesim':\n"}
+[11.586934] (turtlesim) StdoutLine: {'line': b'6:  - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/pep257.xunit.xml\n'}
+[11.604653] (-) TimerEvent: {}
+[11.708323] (-) TimerEvent: {}
+[11.809081] (-) TimerEvent: {}
+[11.909810] (-) TimerEvent: {}
+[12.010628] (-) TimerEvent: {}
+[12.112186] (-) TimerEvent: {}
+[12.190961] (turtlesim) StdoutLine: {'line': b'6: checking ./launch/multisim.launch.py\n'}
+[12.193382] (turtlesim) StdoutLine: {'line': b'6: checking ./src/turtlesim/__init__.py\n'}
+[12.195651] (turtlesim) StdoutLine: {'line': b'6: No problems found\n'}
+[12.212456] (-) TimerEvent: {}
+[12.293317] (turtlesim) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[12.295961] (turtlesim) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/pep257.xunit.xml'\n"}
+[12.312794] (-) TimerEvent: {}
+[12.347072] (turtlesim) StdoutLine: {'line': b'6/8 Test #6: pep257 ...........................   Passed    1.05 sec\n'}
+[12.350145] (turtlesim) StdoutLine: {'line': b'test 7\n'}
+[12.354018] (turtlesim) StdoutLine: {'line': b'    Start 7: uncrustify\n'}
+[12.355583] (turtlesim) StdoutLine: {'line': b'\n'}
+[12.357119] (turtlesim) StdoutLine: {'line': b'7: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/uncrustify.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/jizzy/ros_ws/build/turtlesim/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/uncrustify.xunit.xml"\n'}
+[12.358207] (turtlesim) StdoutLine: {'line': b'7: Working Directory: /home/jizzy/ros_ws/src/ros_tutorials/turtlesim\n'}
+[12.359132] (turtlesim) StdoutLine: {'line': b'7: Test timeout computed to be: 60\n'}
+[12.413022] (-) TimerEvent: {}
+[12.516565] (-) TimerEvent: {}
+[12.620202] (-) TimerEvent: {}
+[12.652186] (turtlesim) StdoutLine: {'line': b"7: -- run_test.py: invoking following command in '/home/jizzy/ros_ws/src/ros_tutorials/turtlesim':\n"}
+[12.653303] (turtlesim) StdoutLine: {'line': b'7:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/uncrustify.xunit.xml\n'}
+[12.720483] (-) TimerEvent: {}
+[12.822221] (-) TimerEvent: {}
+[12.926491] (-) TimerEvent: {}
+[13.030430] (-) TimerEvent: {}
+[13.134784] (-) TimerEvent: {}
+[13.238848] (-) TimerEvent: {}
+[13.342374] (-) TimerEvent: {}
+[13.436840] (turtlesim) StdoutLine: {'line': b"7: No code style divergence in file 'include/turtlesim/qos.hpp'\n"}
+[13.440700] (turtlesim) StdoutLine: {'line': b'7: \n'}
+[13.442934] (-) TimerEvent: {}
+[13.446077] (turtlesim) StdoutLine: {'line': b"7: No code style divergence in file 'include/turtlesim/turtle.hpp'\n"}
+[13.448453] (turtlesim) StdoutLine: {'line': b'7: \n'}
+[13.455178] (turtlesim) StdoutLine: {'line': b"7: No code style divergence in file 'include/turtlesim/turtle_frame.hpp'\n"}
+[13.459451] (turtlesim) StdoutLine: {'line': b'7: \n'}
+[13.463266] (turtlesim) StdoutLine: {'line': b"7: No code style divergence in file 'src/turtle.cpp'\n"}
+[13.464703] (turtlesim) StdoutLine: {'line': b'7: \n'}
+[13.468075] (turtlesim) StdoutLine: {'line': b"7: No code style divergence in file 'src/turtle_frame.cpp'\n"}
+[13.471263] (turtlesim) StdoutLine: {'line': b'7: \n'}
+[13.472236] (turtlesim) StdoutLine: {'line': b"7: No code style divergence in file 'src/turtlesim.cpp'\n"}
+[13.476523] (turtlesim) StdoutLine: {'line': b'7: \n'}
+[13.477947] (turtlesim) StdoutLine: {'line': b"7: No code style divergence in file 'tutorials/draw_square.cpp'\n"}
+[13.478613] (turtlesim) StdoutLine: {'line': b'7: \n'}
+[13.484248] (turtlesim) StdoutLine: {'line': b"7: No code style divergence in file 'tutorials/mimic.cpp'\n"}
+[13.487689] (turtlesim) StdoutLine: {'line': b'7: \n'}
+[13.488359] (turtlesim) StdoutLine: {'line': b"7: No code style divergence in file 'tutorials/teleop_turtle_key.cpp'\n"}
+[13.489132] (turtlesim) StdoutLine: {'line': b'7: \n'}
+[13.489596] (turtlesim) StdoutLine: {'line': b'7: No problems found\n'}
+[13.512247] (turtlesim) StdoutLine: {'line': b'7: -- run_test.py: return code 0\n'}
+[13.513770] (turtlesim) StdoutLine: {'line': b"7: -- run_test.py: verify result file '/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/uncrustify.xunit.xml'\n"}
+[13.543204] (-) TimerEvent: {}
+[13.564304] (turtlesim) StdoutLine: {'line': b'7/8 Test #7: uncrustify .......................   Passed    1.22 sec\n'}
+[13.584162] (turtlesim) StdoutLine: {'line': b'test 8\n'}
+[13.584975] (turtlesim) StdoutLine: {'line': b'    Start 8: xmllint\n'}
+[13.585429] (turtlesim) StdoutLine: {'line': b'\n'}
+[13.585906] (turtlesim) StdoutLine: {'line': b'8: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/xmllint.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/jizzy/ros_ws/build/turtlesim/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/xmllint.xunit.xml"\n'}
+[13.586400] (turtlesim) StdoutLine: {'line': b'8: Working Directory: /home/jizzy/ros_ws/src/ros_tutorials/turtlesim\n'}
+[13.586900] (turtlesim) StdoutLine: {'line': b'8: Test timeout computed to be: 60\n'}
+[13.643875] (-) TimerEvent: {}
+[13.745413] (-) TimerEvent: {}
+[13.849543] (-) TimerEvent: {}
+[13.868847] (turtlesim) StdoutLine: {'line': b"8: -- run_test.py: invoking following command in '/home/jizzy/ros_ws/src/ros_tutorials/turtlesim':\n"}
+[13.871295] (turtlesim) StdoutLine: {'line': b'8:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/xmllint.xunit.xml\n'}
+[13.950014] (-) TimerEvent: {}
+[14.051431] (-) TimerEvent: {}
+[14.155446] (-) TimerEvent: {}
+[14.257647] (-) TimerEvent: {}
+[14.359528] (-) TimerEvent: {}
+[14.461151] (-) TimerEvent: {}
+[14.562474] (-) TimerEvent: {}
+[14.664676] (-) TimerEvent: {}
+[14.766678] (-) TimerEvent: {}
+[14.868945] (-) TimerEvent: {}
+[14.970588] (-) TimerEvent: {}
+[15.072565] (-) TimerEvent: {}
+[15.174487] (-) TimerEvent: {}
+[15.276619] (-) TimerEvent: {}
+[15.378595] (-) TimerEvent: {}
+[15.480445] (-) TimerEvent: {}
+[15.583534] (-) TimerEvent: {}
+[15.599944] (turtlesim) StdoutLine: {'line': b"8: File 'package.xml' is valid\n"}
+[15.600632] (turtlesim) StdoutLine: {'line': b'8: \n'}
+[15.601116] (turtlesim) StdoutLine: {'line': b'8: No problems found\n'}
+[15.672531] (turtlesim) StdoutLine: {'line': b'8: -- run_test.py: return code 0\n'}
+[15.675039] (turtlesim) StdoutLine: {'line': b"8: -- run_test.py: verify result file '/home/jizzy/ros_ws/build/turtlesim/test_results/turtlesim/xmllint.xunit.xml'\n"}
+[15.684036] (-) TimerEvent: {}
+[15.728436] (turtlesim) StdoutLine: {'line': b'8/8 Test #8: xmllint ..........................   Passed    2.15 sec\n'}
+[15.731286] (turtlesim) StdoutLine: {'line': b'\n'}
+[15.735364] (turtlesim) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 8\n'}
+[15.736035] (turtlesim) StdoutLine: {'line': b'\n'}
+[15.736457] (turtlesim) StdoutLine: {'line': b'Label Time Summary:\n'}
+[15.737160] (turtlesim) StdoutLine: {'line': b'copyright     =   3.54 sec*proc (1 test)\n'}
+[15.737615] (turtlesim) StdoutLine: {'line': b'cppcheck      =   1.21 sec*proc (1 test)\n'}
+[15.738074] (turtlesim) StdoutLine: {'line': b'cpplint       =   2.25 sec*proc (1 test)\n'}
+[15.738483] (turtlesim) StdoutLine: {'line': b'flake8        =   1.66 sec*proc (1 test)\n'}
+[15.738923] (turtlesim) StdoutLine: {'line': b'lint_cmake    =   0.82 sec*proc (1 test)\n'}
+[15.739338] (turtlesim) StdoutLine: {'line': b'linter        =  13.89 sec*proc (8 tests)\n'}
+[15.739828] (turtlesim) StdoutLine: {'line': b'pep257        =   1.05 sec*proc (1 test)\n'}
+[15.740270] (turtlesim) StdoutLine: {'line': b'uncrustify    =   1.22 sec*proc (1 test)\n'}
+[15.740668] (turtlesim) StdoutLine: {'line': b'xmllint       =   2.15 sec*proc (1 test)\n'}
+[15.741108] (turtlesim) StdoutLine: {'line': b'\n'}
+[15.741512] (turtlesim) StdoutLine: {'line': b'Total Test time (real) =  13.93 sec\n'}
+[15.757604] (turtlesim) CommandEnded: {'returncode': 0}
+[15.764999] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[15.770467] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+[1.309s] Invoking command in '/home/jizzy/ros_ws/src/MyFirstPackage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jizzy/ros_ws/build/MyFirstPackage/pytest.xml --junit-prefix=MyFirstPackage -o cache_dir=/home/jizzy/ros_ws/build/MyFirstPackage/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[4.141s] [1m============================= test session starts ==============================[0m
+[4.141s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[4.164s] cachedir: /home/jizzy/ros_ws/build/MyFirstPackage/.pytest_cache
+[4.167s] rootdir: /home/jizzy/ros_ws/src/MyFirstPackage
+[4.167s] plugins: ament-flake8-0.17.1, launch-testing-3.4.2, ament-xmllint-0.17.1, ament-lint-0.17.1, ament-pep257-0.17.1, launch-testing-ros-0.26.5, ament-copyright-0.17.1, cov-4.1.0, colcon-core-0.18.1
+[4.841s] [1mcollecting ... [0m[1m
+[4.852s] collecting 0 items                                                             [0m[1m
+[4.853s] collected 3 items                                                              [0m
+[4.857s] 
+[4.904s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[5.911s] test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+[6.014s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[6.015s] 
+[6.018s] ---- generated xml file: /home/jizzy/ros_ws/build/MyFirstPackage/pytest.xml ----
+[6.019s] [32m========================= [32m[1m2 passed[0m, [33m1 skipped[0m[32m in 1.88s[0m[32m =========================[0m
+[6.396s] Invoked command in '/home/jizzy/ros_ws/src/MyFirstPackage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jizzy/ros_ws/build/MyFirstPackage/pytest.xml --junit-prefix=MyFirstPackage -o cache_dir=/home/jizzy/ros_ws/build/MyFirstPackage/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

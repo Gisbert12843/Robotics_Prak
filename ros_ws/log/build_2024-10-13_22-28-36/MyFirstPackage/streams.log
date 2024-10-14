@@ -1,0 +1,38 @@
+[10.572s] Invoking command in '/home/jizzy/ros_ws/src/MyFirstPackage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jizzy/ros_ws/build/MyFirstPackage/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/MyFirstPackage build --build-base /home/jizzy/ros_ws/build/MyFirstPackage/build install --record /home/jizzy/ros_ws/build/MyFirstPackage/install.log --single-version-externally-managed install_data
+[12.018s] running egg_info
+[12.020s] creating ../../build/MyFirstPackage/MyFirstPackage.egg-info
+[12.129s] writing ../../build/MyFirstPackage/MyFirstPackage.egg-info/PKG-INFO
+[12.130s] writing dependency_links to ../../build/MyFirstPackage/MyFirstPackage.egg-info/dependency_links.txt
+[12.131s] writing entry points to ../../build/MyFirstPackage/MyFirstPackage.egg-info/entry_points.txt
+[12.131s] writing requirements to ../../build/MyFirstPackage/MyFirstPackage.egg-info/requires.txt
+[12.134s] writing top-level names to ../../build/MyFirstPackage/MyFirstPackage.egg-info/top_level.txt
+[12.135s] writing manifest file '../../build/MyFirstPackage/MyFirstPackage.egg-info/SOURCES.txt'
+[12.349s] reading manifest file '../../build/MyFirstPackage/MyFirstPackage.egg-info/SOURCES.txt'
+[12.352s] adding license file 'LICENSE'
+[12.357s] writing manifest file '../../build/MyFirstPackage/MyFirstPackage.egg-info/SOURCES.txt'
+[12.358s] running build
+[12.361s] running build_py
+[12.361s] creating /home/jizzy/ros_ws/build/MyFirstPackage/build
+[12.367s] creating /home/jizzy/ros_ws/build/MyFirstPackage/build/lib
+[12.368s] creating /home/jizzy/ros_ws/build/MyFirstPackage/build/lib/MyFirstPackage
+[12.379s] copying MyFirstPackage/__init__.py -> /home/jizzy/ros_ws/build/MyFirstPackage/build/lib/MyFirstPackage
+[12.380s] copying MyFirstPackage/my_node.py -> /home/jizzy/ros_ws/build/MyFirstPackage/build/lib/MyFirstPackage
+[12.384s] running install
+[12.389s] running install_lib
+[12.501s] creating /home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages/MyFirstPackage
+[12.502s] copying /home/jizzy/ros_ws/build/MyFirstPackage/build/lib/MyFirstPackage/__init__.py -> /home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages/MyFirstPackage
+[12.502s] copying /home/jizzy/ros_ws/build/MyFirstPackage/build/lib/MyFirstPackage/my_node.py -> /home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages/MyFirstPackage
+[12.504s] byte-compiling /home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages/MyFirstPackage/__init__.py to __init__.cpython-312.pyc
+[12.505s] byte-compiling /home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages/MyFirstPackage/my_node.py to my_node.cpython-312.pyc
+[12.507s] running install_data
+[12.508s] creating /home/jizzy/ros_ws/install/MyFirstPackage/share/ament_index
+[12.509s] creating /home/jizzy/ros_ws/install/MyFirstPackage/share/ament_index/resource_index
+[12.509s] creating /home/jizzy/ros_ws/install/MyFirstPackage/share/ament_index/resource_index/packages
+[12.512s] copying resource/MyFirstPackage -> /home/jizzy/ros_ws/install/MyFirstPackage/share/ament_index/resource_index/packages
+[12.513s] copying package.xml -> /home/jizzy/ros_ws/install/MyFirstPackage/share/MyFirstPackage
+[12.513s] running install_egg_info
+[12.624s] Copying ../../build/MyFirstPackage/MyFirstPackage.egg-info to /home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages/MyFirstPackage-0.0.0-py3.12.egg-info
+[12.629s] running install_scripts
+[13.327s] Installing my_node script to /home/jizzy/ros_ws/install/MyFirstPackage/lib/MyFirstPackage
+[13.332s] writing list of installed files to '/home/jizzy/ros_ws/build/MyFirstPackage/install.log'
+[13.494s] Invoked command in '/home/jizzy/ros_ws/src/MyFirstPackage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jizzy/ros_ws/build/MyFirstPackage/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/MyFirstPackage build --build-base /home/jizzy/ros_ws/build/MyFirstPackage/build install --record /home/jizzy/ros_ws/build/MyFirstPackage/install.log --single-version-externally-managed install_data

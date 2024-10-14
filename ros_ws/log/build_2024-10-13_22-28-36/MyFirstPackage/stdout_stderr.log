@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/MyFirstPackage/MyFirstPackage.egg-info
+writing ../../build/MyFirstPackage/MyFirstPackage.egg-info/PKG-INFO
+writing dependency_links to ../../build/MyFirstPackage/MyFirstPackage.egg-info/dependency_links.txt
+writing entry points to ../../build/MyFirstPackage/MyFirstPackage.egg-info/entry_points.txt
+writing requirements to ../../build/MyFirstPackage/MyFirstPackage.egg-info/requires.txt
+writing top-level names to ../../build/MyFirstPackage/MyFirstPackage.egg-info/top_level.txt
+writing manifest file '../../build/MyFirstPackage/MyFirstPackage.egg-info/SOURCES.txt'
+reading manifest file '../../build/MyFirstPackage/MyFirstPackage.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/MyFirstPackage/MyFirstPackage.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jizzy/ros_ws/build/MyFirstPackage/build
+creating /home/jizzy/ros_ws/build/MyFirstPackage/build/lib
+creating /home/jizzy/ros_ws/build/MyFirstPackage/build/lib/MyFirstPackage
+copying MyFirstPackage/__init__.py -> /home/jizzy/ros_ws/build/MyFirstPackage/build/lib/MyFirstPackage
+copying MyFirstPackage/my_node.py -> /home/jizzy/ros_ws/build/MyFirstPackage/build/lib/MyFirstPackage
+running install
+running install_lib
+creating /home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages/MyFirstPackage
+copying /home/jizzy/ros_ws/build/MyFirstPackage/build/lib/MyFirstPackage/__init__.py -> /home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages/MyFirstPackage
+copying /home/jizzy/ros_ws/build/MyFirstPackage/build/lib/MyFirstPackage/my_node.py -> /home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages/MyFirstPackage
+byte-compiling /home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages/MyFirstPackage/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages/MyFirstPackage/my_node.py to my_node.cpython-312.pyc
+running install_data
+creating /home/jizzy/ros_ws/install/MyFirstPackage/share/ament_index
+creating /home/jizzy/ros_ws/install/MyFirstPackage/share/ament_index/resource_index
+creating /home/jizzy/ros_ws/install/MyFirstPackage/share/ament_index/resource_index/packages
+copying resource/MyFirstPackage -> /home/jizzy/ros_ws/install/MyFirstPackage/share/ament_index/resource_index/packages
+copying package.xml -> /home/jizzy/ros_ws/install/MyFirstPackage/share/MyFirstPackage
+running install_egg_info
+Copying ../../build/MyFirstPackage/MyFirstPackage.egg-info to /home/jizzy/ros_ws/install/MyFirstPackage/lib/python3.12/site-packages/MyFirstPackage-0.0.0-py3.12.egg-info
+running install_scripts
+Installing my_node script to /home/jizzy/ros_ws/install/MyFirstPackage/lib/MyFirstPackage
+writing list of installed files to '/home/jizzy/ros_ws/build/MyFirstPackage/install.log'

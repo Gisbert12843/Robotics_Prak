@@ -1,0 +1,49 @@
+[5.342s] Invoking command in '/home/jizzy/ros_ws/build/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jizzy/ros_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jizzy/ros_ws/build/my_package/build
+[7.591s] running develop
+[7.592s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[7.596s] !!
+[7.596s] 
+[7.597s]         ********************************************************************************
+[7.597s]         Please avoid running ``setup.py`` and ``easy_install``.
+[7.600s]         Instead, use pypa/build, pypa/installer or other
+[7.600s]         standards-based tools.
+[7.601s] 
+[7.601s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[7.604s]         ********************************************************************************
+[7.604s] 
+[7.605s] !!
+[7.605s]   easy_install.initialize_options(self)
+[9.109s] Removing /home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages/my-package.egg-link (link to .)
+[9.389s] Invoked command in '/home/jizzy/ros_ws/build/my_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jizzy/ros_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jizzy/ros_ws/build/my_package/build
+[9.392s] Invoking command in '/home/jizzy/ros_ws/src/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jizzy/ros_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/jizzy/ros_ws/build/my_package/build install --record /home/jizzy/ros_ws/build/my_package/install.log --single-version-externally-managed install_data --force
+[11.025s] running egg_info
+[11.141s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[11.144s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[11.146s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[11.148s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[11.150s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[11.374s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[11.377s] adding license file 'LICENSE'
+[11.380s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[11.382s] running build
+[11.384s] running build_py
+[11.386s] creating /home/jizzy/ros_ws/build/my_package/build
+[11.388s] creating /home/jizzy/ros_ws/build/my_package/build/lib
+[11.390s] creating /home/jizzy/ros_ws/build/my_package/build/lib/my_package
+[11.392s] copying my_package/__init__.py -> /home/jizzy/ros_ws/build/my_package/build/lib/my_package
+[11.397s] copying my_package/my_node.py -> /home/jizzy/ros_ws/build/my_package/build/lib/my_package
+[11.398s] running install
+[11.415s] running install_lib
+[11.528s] creating /home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages/my_package
+[11.531s] copying /home/jizzy/ros_ws/build/my_package/build/lib/my_package/__init__.py -> /home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages/my_package
+[11.533s] copying /home/jizzy/ros_ws/build/my_package/build/lib/my_package/my_node.py -> /home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages/my_package
+[11.535s] byte-compiling /home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages/my_package/__init__.py to __init__.cpython-312.pyc
+[11.537s] byte-compiling /home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages/my_package/my_node.py to my_node.cpython-312.pyc
+[11.538s] running install_data
+[11.539s] copying resource/my_package -> /home/jizzy/ros_ws/install/my_package/share/ament_index/resource_index/packages
+[11.540s] copying package.xml -> /home/jizzy/ros_ws/install/my_package/share/my_package
+[11.542s] running install_egg_info
+[11.659s] Copying ../../build/my_package/my_package.egg-info to /home/jizzy/ros_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info
+[11.664s] running install_scripts
+[12.381s] Installing my_node script to /home/jizzy/ros_ws/install/my_package/lib/my_package
+[12.384s] writing list of installed files to '/home/jizzy/ros_ws/build/my_package/install.log'

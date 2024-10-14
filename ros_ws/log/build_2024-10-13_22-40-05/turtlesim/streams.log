@@ -1,0 +1,9 @@
+[1.206s] Invoking command in '/home/jizzy/ros_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jizzy/ros_ws/install/MyFirstPackage:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jizzy/ros_ws/build/turtlesim -- -j2 -l2
+[1.507s] [  0%] Built target turtlesim__rosidl_generator_type_description
+[1.564s] failed to create symbolic link '/home/jizzy/ros_ws/build/turtlesim/ament_cmake_python/turtlesim/turtlesim' because existing path cannot be removed: Is a directory
+[1.571s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_turtlesim] Error 1
+[1.571s] gmake[1]: *** [CMakeFiles/Makefile2:460: CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/all] Error 2
+[1.572s] gmake[1]: *** Waiting for unfinished jobs....
+[1.650s] [  1%] Built target turtlesim__cpp
+[1.658s] gmake: *** [Makefile:146: all] Error 2
+[1.665s] Invoked command in '/home/jizzy/ros_ws/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jizzy/ros_ws/install/MyFirstPackage:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jizzy/ros_ws/build/turtlesim -- -j2 -l2
