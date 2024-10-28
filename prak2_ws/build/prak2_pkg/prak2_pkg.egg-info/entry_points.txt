@@ -1,0 +1,4 @@
+[console_scripts]
+aruco_marker_detection_node = prak2_pkg.aruco_marker_detection_node:main
+line_following_node = prak2_pkg.line_following_node:main
+

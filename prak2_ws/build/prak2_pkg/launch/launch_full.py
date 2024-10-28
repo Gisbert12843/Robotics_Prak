@@ -1,0 +1,1 @@
+/home/gisbert12843/Robotics_Prak/prak2_ws/src/prak2_pkg/launch/launch_full.py

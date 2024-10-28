@@ -1,3 +1,0 @@
-[console_scripts]
-aruco_marker_detection_node = aruco_marker_detection.aruco_marker_detection_node:main
-
