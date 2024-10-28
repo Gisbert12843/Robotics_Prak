@@ -1,0 +1,27 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating webots_spot_teleop.egg-info
+writing webots_spot_teleop.egg-info/PKG-INFO
+writing dependency_links to webots_spot_teleop.egg-info/dependency_links.txt
+writing entry points to webots_spot_teleop.egg-info/entry_points.txt
+writing requirements to webots_spot_teleop.egg-info/requires.txt
+writing top-level names to webots_spot_teleop.egg-info/top_level.txt
+writing manifest file 'webots_spot_teleop.egg-info/SOURCES.txt'
+reading manifest file 'webots_spot_teleop.egg-info/SOURCES.txt'
+writing manifest file 'webots_spot_teleop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/gisbert12843/ros2_ws/install/webots_spot_teleop/lib/python3.10/site-packages/webots-spot-teleop.egg-link (link to .)
+Installing keyboard script to /home/gisbert12843/ros2_ws/install/webots_spot_teleop/lib/webots_spot_teleop
+Installing sliders script to /home/gisbert12843/ros2_ws/install/webots_spot_teleop/lib/webots_spot_teleop
+
+Installed /home/gisbert12843/ros2_ws/build/webots_spot_teleop
+running symlink_data
+creating /home/gisbert12843/ros2_ws/install/webots_spot_teleop/share/ament_index
+creating /home/gisbert12843/ros2_ws/install/webots_spot_teleop/share/ament_index/resource_index
+creating /home/gisbert12843/ros2_ws/install/webots_spot_teleop/share/ament_index/resource_index/packages
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot_teleop/resource/webots_spot_teleop -> /home/gisbert12843/ros2_ws/install/webots_spot_teleop/share/ament_index/resource_index/packages
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot_teleop/package.xml -> /home/gisbert12843/ros2_ws/install/webots_spot_teleop/share/webots_spot_teleop

@@ -1,0 +1,1 @@
+/home/gisbert12843/ros2_ws/build/aruco_marker_detection/launch/launch_full.py

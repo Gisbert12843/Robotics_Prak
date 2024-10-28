@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from webots_spot_msgs/srv/SpotMotion.srv
+// generated code does not contain a copyright notice
+
+
+module webots_spot_msgs {
+  module srv {
+    struct SpotMotion_Request {
+      boolean override;
+    };
+    struct SpotMotion_Response {
+      string answer;
+    };
+  };
+};

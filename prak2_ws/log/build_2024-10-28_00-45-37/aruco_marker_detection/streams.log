@@ -1,0 +1,19 @@
+[0.542s] Invoking command in '/home/gisbert12843/ros2_ws/build/aruco_marker_detection': PYTHONPATH=/home/gisbert12843/ros2_ws/build/aruco_marker_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/ros2_ws/install/aruco_marker_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/gisbert12843/ros2_ws/build/aruco_marker_detection/build --no-deps symlink_data
+[0.773s] running develop
+[0.774s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.774s]   warnings.warn(
+[0.914s] running egg_info
+[0.914s] writing aruco_marker_detection.egg-info/PKG-INFO
+[0.914s] writing dependency_links to aruco_marker_detection.egg-info/dependency_links.txt
+[0.915s] writing entry points to aruco_marker_detection.egg-info/entry_points.txt
+[0.915s] writing requirements to aruco_marker_detection.egg-info/requires.txt
+[0.915s] writing top-level names to aruco_marker_detection.egg-info/top_level.txt
+[0.917s] reading manifest file 'aruco_marker_detection.egg-info/SOURCES.txt'
+[0.918s] writing manifest file 'aruco_marker_detection.egg-info/SOURCES.txt'
+[0.919s] running build_ext
+[0.919s] Creating /home/gisbert12843/ros2_ws/install/aruco_marker_detection/lib/python3.10/site-packages/aruco-marker-detection.egg-link (link to .)
+[0.920s] Installing aruco_marker_detection_node script to /home/gisbert12843/ros2_ws/install/aruco_marker_detection/lib/aruco_marker_detection
+[0.921s] 
+[0.921s] Installed /home/gisbert12843/ros2_ws/build/aruco_marker_detection
+[0.921s] running symlink_data
+[0.943s] Invoked command in '/home/gisbert12843/ros2_ws/build/aruco_marker_detection' returned '0': PYTHONPATH=/home/gisbert12843/ros2_ws/build/aruco_marker_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/ros2_ws/install/aruco_marker_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/gisbert12843/ros2_ws/build/aruco_marker_detection/build --no-deps symlink_data

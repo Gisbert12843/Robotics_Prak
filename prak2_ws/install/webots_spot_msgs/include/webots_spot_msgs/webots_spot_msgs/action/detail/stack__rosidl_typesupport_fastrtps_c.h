@@ -1,0 +1,1 @@
+/home/gisbert12843/ros2_ws/build/webots_spot_msgs/rosidl_typesupport_fastrtps_c/webots_spot_msgs/action/detail/stack__rosidl_typesupport_fastrtps_c.h

@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing webots_spot.egg-info/PKG-INFO
+writing dependency_links to webots_spot.egg-info/dependency_links.txt
+writing entry points to webots_spot.egg-info/entry_points.txt
+writing requirements to webots_spot.egg-info/requires.txt
+writing top-level names to webots_spot.egg-info/top_level.txt
+reading manifest file 'webots_spot.egg-info/SOURCES.txt'
+writing manifest file 'webots_spot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/gisbert12843/ros2_ws/install/webots_spot/lib/python3.10/site-packages/webots-spot.egg-link (link to .)
+Installing arena_modifier script to /home/gisbert12843/ros2_ws/install/webots_spot/lib/webots_spot
+Installing gpp_stacker script to /home/gisbert12843/ros2_ws/install/webots_spot/lib/webots_spot
+Installing retract_manipulator script to /home/gisbert12843/ros2_ws/install/webots_spot/lib/webots_spot
+Installing set_initial_pose script to /home/gisbert12843/ros2_ws/install/webots_spot/lib/webots_spot
+Installing spot_driver script to /home/gisbert12843/ros2_ws/install/webots_spot/lib/webots_spot
+Installing spot_pointcloud2 script to /home/gisbert12843/ros2_ws/install/webots_spot/lib/webots_spot
+
+Installed /home/gisbert12843/ros2_ws/build/webots_spot
+running symlink_data

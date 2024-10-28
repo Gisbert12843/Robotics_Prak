@@ -1,0 +1,176 @@
+running develop
+running egg_info
+creating webots_spot.egg-info
+writing webots_spot.egg-info/PKG-INFO
+writing dependency_links to webots_spot.egg-info/dependency_links.txt
+writing entry points to webots_spot.egg-info/entry_points.txt
+writing requirements to webots_spot.egg-info/requires.txt
+writing top-level names to webots_spot.egg-info/top_level.txt
+writing manifest file 'webots_spot.egg-info/SOURCES.txt'
+reading manifest file 'webots_spot.egg-info/SOURCES.txt'
+writing manifest file 'webots_spot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/gisbert12843/ros2_ws/install/webots_spot/lib/python3.10/site-packages/webots-spot.egg-link (link to .)
+Installing arena_modifier script to /home/gisbert12843/ros2_ws/install/webots_spot/lib/webots_spot
+Installing gpp_stacker script to /home/gisbert12843/ros2_ws/install/webots_spot/lib/webots_spot
+Installing retract_manipulator script to /home/gisbert12843/ros2_ws/install/webots_spot/lib/webots_spot
+Installing set_initial_pose script to /home/gisbert12843/ros2_ws/install/webots_spot/lib/webots_spot
+Installing spot_driver script to /home/gisbert12843/ros2_ws/install/webots_spot/lib/webots_spot
+Installing spot_pointcloud2 script to /home/gisbert12843/ros2_ws/install/webots_spot/lib/webots_spot
+
+Installed /home/gisbert12843/ros2_ws/build/webots_spot
+running symlink_data
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/package.xml -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot
+creating /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/launch
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/launch/blocksworld_launch.py -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/launch
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/launch/moveit_launch.py -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/launch
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/launch/slam_launch.py -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/launch
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/launch/spot_launch.py -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/launch
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/launch/nav_launch.py -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/launch
+creating /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/worlds
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/worlds/spot.wbt -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/worlds
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/worlds/tags/P.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/worlds
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/worlds/tags/A.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/worlds
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/worlds/tags/aruco.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/worlds
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/worlds/tags/C.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/worlds
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/worlds/tags/B.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/worlds
+creating /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/resource
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/resource/moveit_movegroup.yaml -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/resource
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/resource/spotarm_control.urdf -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/resource
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/resource/moveit_spot_arm.srdf -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/resource
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/resource/webots_blocksworld.gpp -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/resource
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/resource/moveit_kinematics.yaml -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/resource
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/resource/nav2.rviz -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/resource
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/resource/spotarm_ros2_controllers.yaml -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/resource
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/resource/spot.urdf -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/resource
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/resource/spot_control.urdf -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/resource
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/resource/moveit_controllers.yaml -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/resource
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/resource/slam.rviz -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/resource
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/resource/webots_spot -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/resource
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/resource/moveit_visualization.rviz -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/resource
+creating /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/train.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/elephant.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/bus.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/giraffe.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/stop_sign.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/bird.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/pizza.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/fire_hydrant.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/car.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/motorcycle.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/airplane.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/cow.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/sheep.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/clock.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/traffic_light.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/dog.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/kite.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/bottle.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/truck.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/yolo_images/zebra.jpeg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/yolo_images
+creating /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/hazmat_signs/placard-5.1-oxidizer.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/hazmat_signs/placard-8-corrosive.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/hazmat_signs/placard-5.2-organic-peroxide.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/hazmat_signs/placard-4-spontaneously-combustible.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/hazmat_signs/placard-2-flammable-gas.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/hazmat_signs/placard-3-fuel-oil.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/hazmat_signs/placard-6-poison.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/hazmat_signs/placard-1.1-explosives.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/hazmat_signs/placard-1.5-blasting-agents.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/hazmat_signs/placard-2-non-flammable-gas.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/hazmat_signs/placard-4-dangerous-when-wet.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/hazmat_signs/placard-7-radioactive.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/hazmat_signs/placard-4-flammable-solid.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/hazmat_signs/placard-6-inhalation-hazard.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/hazmat_signs/placard-2-oxygen.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/hazmat_signs
+creating /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/SpotArm.proto -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/Spot.proto -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/SpotLeg.proto -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/ImageBox.proto -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos
+creating /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/icons
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/icons/Spot.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/icons
+creating /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/rear_cam_1.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/right_flank_cam_3.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/foot.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/left_flank_cover.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/rear_cam_3.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/front_shoulder_cover.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/head_background_holes.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/black_box_2.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/left_flank_cam_1.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/black_box_2_screw.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/rear_0.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/left_flank_rubber.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/rear_shoulder_cover.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/upperarm_sh.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/upperarm_inside.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/cover_motor.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/head_cam_r3.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/left_flank_cam_2.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/right_flank_cover.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/motor_ring.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/head_cover.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/head_cam_l1.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/head_cam_l3.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/cover_elbow.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/rear_3.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/square_screw_2.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/bottom_side.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/cover_leg.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/tendon.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/black_box_1.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/foot_rubber.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/black_box_1_screw.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/rear_cover.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/head_cam_l2.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/head_cam_r1.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/metal_strip.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/left_flank_holes.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/motor.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/rear_buttons_red_1.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/right_flank_rubber.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/rear_buttons_blue_1.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/rear_cam_2.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/right_flank_cam_2.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/rear_buttons_blue_2.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/forearm_sh.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/rear_buttons.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/left_flank_cam_4.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/square_screw_1.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/motor_support.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/right_flank_cam_4.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/right_flank_holes.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/back_cover.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/rear_buttons_red_2.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/back_screws.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/left_flank_cam_3.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/rear_2.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/rear_1.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/head_cam_r2.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/meshes/right_flank_cam_1.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/meshes
+creating /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/textures
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/textures/camera_big_lens_base_color.jpg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/textures
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/textures/camera_2_lens_base_color.jpg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/textures
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/textures/camera_lens_base_color.jpg -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/textures
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/textures/startup.png -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/textures
+creating /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/SpotArm
+creating /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/SpotArm/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/SpotArm/meshes/spotarm_link1.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/SpotArm/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/SpotArm/meshes/spotarm_link5.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/SpotArm/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/SpotArm/meshes/spotarm_base_link.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/SpotArm/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/SpotArm/meshes/spotarm_link2.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/SpotArm/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/SpotArm/meshes/spotarm_link4.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/SpotArm/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/SpotArm/meshes/spotarm_link6.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/SpotArm/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/SpotArm/meshes/spotarm_link3.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/SpotArm/meshes
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/protos/SpotArm/meshes/spotarm_link7.obj -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/protos/SpotArm/meshes
+creating /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/params
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/params/nav2_params.yaml -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/params
+creating /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/map
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/map/map_arena3.pgm -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/map
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/map/map.yaml -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/map
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/map/map_arena3.yaml -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/map
+symbolically linking /home/gisbert12843/ros2_ws/build/webots_spot/map/map.pgm -> /home/gisbert12843/ros2_ws/install/webots_spot/share/webots_spot/map

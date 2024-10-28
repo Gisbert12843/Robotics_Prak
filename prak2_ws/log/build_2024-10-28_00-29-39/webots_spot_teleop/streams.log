@@ -1,0 +1,22 @@
+[1.193s] Invoking command in '/home/gisbert12843/ros2_ws/build/webots_spot_teleop': PYTHONPATH=/home/gisbert12843/ros2_ws/build/webots_spot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/ros2_ws/install/webots_spot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/gisbert12843/ros2_ws/build/webots_spot_teleop/build --no-deps symlink_data
+[1.720s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.722s]   warnings.warn(
+[1.792s] running develop
+[1.793s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.793s]   warnings.warn(
+[2.114s] running egg_info
+[2.114s] writing webots_spot_teleop.egg-info/PKG-INFO
+[2.114s] writing dependency_links to webots_spot_teleop.egg-info/dependency_links.txt
+[2.115s] writing entry points to webots_spot_teleop.egg-info/entry_points.txt
+[2.115s] writing requirements to webots_spot_teleop.egg-info/requires.txt
+[2.115s] writing top-level names to webots_spot_teleop.egg-info/top_level.txt
+[2.118s] reading manifest file 'webots_spot_teleop.egg-info/SOURCES.txt'
+[2.119s] writing manifest file 'webots_spot_teleop.egg-info/SOURCES.txt'
+[2.121s] running build_ext
+[2.122s] Creating /home/gisbert12843/ros2_ws/install/webots_spot_teleop/lib/python3.10/site-packages/webots-spot-teleop.egg-link (link to .)
+[2.123s] Installing keyboard script to /home/gisbert12843/ros2_ws/install/webots_spot_teleop/lib/webots_spot_teleop
+[2.123s] Installing sliders script to /home/gisbert12843/ros2_ws/install/webots_spot_teleop/lib/webots_spot_teleop
+[2.124s] 
+[2.124s] Installed /home/gisbert12843/ros2_ws/build/webots_spot_teleop
+[2.124s] running symlink_data
+[2.170s] Invoked command in '/home/gisbert12843/ros2_ws/build/webots_spot_teleop' returned '0': PYTHONPATH=/home/gisbert12843/ros2_ws/build/webots_spot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/ros2_ws/install/webots_spot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/gisbert12843/ros2_ws/build/webots_spot_teleop/build --no-deps symlink_data

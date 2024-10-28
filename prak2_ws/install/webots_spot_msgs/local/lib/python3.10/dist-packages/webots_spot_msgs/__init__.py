@@ -1,0 +1,1 @@
+/home/gisbert12843/ros2_ws/build/webots_spot_msgs/rosidl_generator_py/webots_spot_msgs/__init__.py

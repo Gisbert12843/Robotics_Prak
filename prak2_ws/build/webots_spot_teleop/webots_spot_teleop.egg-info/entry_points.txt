@@ -1,0 +1,4 @@
+[console_scripts]
+keyboard = webots_spot_teleop.keyboard:main
+sliders = webots_spot_teleop.sliders:main
+

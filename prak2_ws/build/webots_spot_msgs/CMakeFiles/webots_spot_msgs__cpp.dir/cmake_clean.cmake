@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/webots_spot_msgs__cpp"
+  "rosidl_generator_cpp/webots_spot_msgs/action/detail/peak_and_detect_object__builder.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/action/detail/peak_and_detect_object__struct.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/action/detail/peak_and_detect_object__traits.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/action/detail/stack__builder.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/action/detail/stack__struct.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/action/detail/stack__traits.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/action/peak_and_detect_object.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/action/stack.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/msg/detail/gait_input__builder.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/msg/detail/gait_input__struct.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/msg/detail/gait_input__traits.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/msg/detail/int32__builder.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/msg/detail/int32__struct.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/msg/detail/int32__traits.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/msg/detail/legs__builder.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/msg/detail/legs__struct.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/msg/detail/legs__traits.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/msg/gait_input.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/msg/int32.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/msg/legs.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/srv/block_pose.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/srv/detail/block_pose__builder.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/srv/detail/block_pose__struct.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/srv/detail/block_pose__traits.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/srv/detail/spot_height__builder.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/srv/detail/spot_height__struct.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/srv/detail/spot_height__traits.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/srv/detail/spot_motion__builder.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/srv/detail/spot_motion__struct.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/srv/detail/spot_motion__traits.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/srv/spot_height.hpp"
+  "rosidl_generator_cpp/webots_spot_msgs/srv/spot_motion.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/webots_spot_msgs__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

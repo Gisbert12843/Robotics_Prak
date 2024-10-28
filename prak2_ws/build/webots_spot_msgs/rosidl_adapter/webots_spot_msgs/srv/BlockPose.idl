@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from webots_spot_msgs/srv/BlockPose.srv
+// generated code does not contain a copyright notice
+
+
+module webots_spot_msgs {
+  module srv {
+    struct BlockPose_Request {
+      string block;
+    };
+    struct BlockPose_Response {
+      string location;
+    };
+  };
+};

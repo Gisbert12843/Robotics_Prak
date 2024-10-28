@@ -1,0 +1,20 @@
+[1.700s] Invoking command in '/home/gisbert12843/ros2_ws/build/webots_ros2_importer': PYTHONPATH=/home/gisbert12843/ros2_ws/build/webots_ros2_importer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/gisbert12843/ros2_ws/build/webots_ros2_importer/build --no-deps symlink_data
+[2.109s] running develop
+[2.109s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.109s]   warnings.warn(
+[2.357s] running egg_info
+[2.358s] writing webots_ros2_importer.egg-info/PKG-INFO
+[2.358s] writing dependency_links to webots_ros2_importer.egg-info/dependency_links.txt
+[2.358s] writing entry points to webots_ros2_importer.egg-info/entry_points.txt
+[2.358s] writing requirements to webots_ros2_importer.egg-info/requires.txt
+[2.358s] writing top-level names to webots_ros2_importer.egg-info/top_level.txt
+[2.361s] reading manifest file 'webots_ros2_importer.egg-info/SOURCES.txt'
+[2.362s] writing manifest file 'webots_ros2_importer.egg-info/SOURCES.txt'
+[2.364s] running build_ext
+[2.365s] Creating /home/gisbert12843/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots-ros2-importer.egg-link (link to .)
+[2.366s] Installing urdf2proto script to /home/gisbert12843/ros2_ws/install/webots_ros2_importer/lib/webots_ros2_importer
+[2.366s] Installing xacro2proto script to /home/gisbert12843/ros2_ws/install/webots_ros2_importer/lib/webots_ros2_importer
+[2.367s] 
+[2.367s] Installed /home/gisbert12843/ros2_ws/build/webots_ros2_importer
+[2.367s] running symlink_data
+[2.411s] Invoked command in '/home/gisbert12843/ros2_ws/build/webots_ros2_importer' returned '0': PYTHONPATH=/home/gisbert12843/ros2_ws/build/webots_ros2_importer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/gisbert12843/ros2_ws/build/webots_ros2_importer/build --no-deps symlink_data

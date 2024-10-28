@@ -1,3 +1,15 @@
 [submodule "ros_ws/src/ros_tutorials"]
 	path = ros_ws/src/ros_tutorials
 	url = https://github.com/ros/ros_tutorials
+[submodule "prak2_ws/src/webots_ros2"]
+	path = prak2_ws/src/webots_ros2
+	url = https://github.com/cyberbotics/webots_ros2.git
+[submodule "prak2_ws/src/webots_ros2_spot"]
+	path = prak2_ws/src/webots_ros2_spot
+	url = https://github.com/MASKOR/webots_ros2_spot
+[submodule "prak2_ws/src/webots_spot_msgs"]
+	path = prak2_ws/src/webots_spot_msgs
+	url = https://github.com/MASKOR/webots_spot_msgs.git
+[submodule "prak2_ws/src/webots_spot_teleop"]
+	path = prak2_ws/src/webots_spot_teleop
+	url = https://github.com/MASKOR/webots_spot_teleop.git
