@@ -1,1 +1,1 @@
-/home/gisbert12843/ros2_ws/build/webots_spot/launch/nav_launch.py
+/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot/launch/nav_launch.py

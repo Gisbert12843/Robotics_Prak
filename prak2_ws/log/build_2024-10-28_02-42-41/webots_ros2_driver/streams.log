@@ -1,0 +1,384 @@
+[0.010s] Invoking command in '/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_driver': AMENT_PREFIX_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection:/opt/ros/humble CMAKE_PREFIX_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_control:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection:/opt/ros/humble LD_LIBRARY_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_control/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_importer:/home/gisbert12843/ros2_ws/build/aruco_marker_detection:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.205s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.209s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.288s] -- Detecting CXX compile features
+[0.289s] -- Detecting CXX compile features - done
+[0.291s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.420s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.477s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.502s] -- Found rosgraph_msgs: 1.2.1 (/opt/ros/humble/share/rosgraph_msgs/cmake)
+[0.537s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.542s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.551s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.580s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.609s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.649s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.652s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.723s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.747s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.784s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.791s] -- Looking for pthread.h
+[0.847s] -- Looking for pthread.h - found
+[0.847s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.903s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.904s] -- Found Threads: TRUE  
+[0.944s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.968s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.002s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.015s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.017s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.017s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.119s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[1.136s] -- Found webots_ros2_msgs: 2023.1.3 (/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake)
+[1.157s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.266s] -- Found Python: /usr/include/python3.10 (found suitable exact version "3.10.12") found components: Development Development.Module Development.Embed 
+[1.526s] -- Configuring done
+[1.550s] -- Generating done
+[1.552s] -- Build files have been written to: /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_driver
+[1.562s] Invoked command in '/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection:/opt/ros/humble CMAKE_PREFIX_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_control:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection:/opt/ros/humble LD_LIBRARY_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_control/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_importer:/home/gisbert12843/ros2_ws/build/aruco_marker_detection:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver
+[1.563s] Invoking command in '/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_driver': AMENT_PREFIX_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection:/opt/ros/humble CMAKE_PREFIX_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_control:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection:/opt/ros/humble LD_LIBRARY_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_control/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_importer:/home/gisbert12843/ros2_ws/build/aruco_marker_detection:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_driver -- -j8 -l8
+[1.613s] [  0%] Built target ament_cmake_python_symlink_controller
+[1.613s] [  0%] Built target ament_cmake_python_symlink_vehicle
+[1.617s] [  0%] Built target ament_cmake_python_symlink_webots_ros2_driver
+[1.860s] running egg_info
+[1.861s] creating vehicle.egg-info
+[1.861s] writing vehicle.egg-info/PKG-INFO
+[1.861s] writing dependency_links to vehicle.egg-info/dependency_links.txt
+[1.861s] writing top-level names to vehicle.egg-info/top_level.txt
+[1.861s] writing manifest file 'vehicle.egg-info/SOURCES.txt'
+[1.862s] running egg_info
+[1.862s] creating controller.egg-info
+[1.863s] writing controller.egg-info/PKG-INFO
+[1.863s] writing dependency_links to controller.egg-info/dependency_links.txt
+[1.863s] writing top-level names to controller.egg-info/top_level.txt
+[1.863s] reading manifest file 'vehicle.egg-info/SOURCES.txt'
+[1.863s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[1.864s] writing manifest file 'vehicle.egg-info/SOURCES.txt'
+[1.866s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[1.867s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[1.882s] running egg_info
+[1.883s] creating webots_ros2_driver.egg-info
+[1.883s] writing webots_ros2_driver.egg-info/PKG-INFO
+[1.883s] writing dependency_links to webots_ros2_driver.egg-info/dependency_links.txt
+[1.884s] writing top-level names to webots_ros2_driver.egg-info/top_level.txt
+[1.884s] writing manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[1.886s] reading manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[1.887s] writing manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[1.894s] [  0%] Built target ament_cmake_python_build_vehicle_egg
+[1.897s] [  0%] Built target ament_cmake_python_build_controller_egg
+[1.912s] [  0%] Built target ament_cmake_python_build_webots_ros2_driver_egg
+[19.006s] [  0%] Built target compile-lib-controller
+[19.212s] [  0%] Built target compile-generic-window
+[20.621s] [  0%] Built target compile-lib-vehicle
+[20.642s] [ 18%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_rgbd.dir/src/plugins/dynamic/Ros2RGBD.cpp.o[0m
+[20.642s] [ 22%] [32mBuilding CXX object CMakeFiles/driver.dir/src/WebotsNode.cpp.o[0m
+[20.642s] [ 18%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/utils/Utils.cpp.o[0m
+[20.642s] [ 22%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_rgbd.dir/src/plugins/Ros2SensorPlugin.cpp.o[0m
+[20.643s] [ 18%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/plugins/dynamic/Ros2IMU.cpp.o[0m
+[20.643s] [ 22%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/plugins/Ros2SensorPlugin.cpp.o[0m
+[20.643s] [ 29%] [32mBuilding CXX object CMakeFiles/driver.dir/src/Driver.cpp.o[0m
+[20.643s] [ 29%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_rgbd.dir/src/utils/Utils.cpp.o[0m
+[21.221s] [ 33%] [32mBuilding CXX object CMakeFiles/driver.dir/src/PythonPlugin.cpp.o[0m
+[21.254s] [ 37%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/Ros2SensorPlugin.cpp.o[0m
+[26.634s] [ 40%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Lidar.cpp.o[0m
+[26.636s] [ 44%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2LED.cpp.o[0m
+[26.995s] [ 48%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Pen.cpp.o[0m
+[27.434s] [ 51%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o[0m
+[27.454s] [ 55%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2GPS.cpp.o[0m
+[29.619s] [ 59%] [32m[1mLinking CXX shared library libwebots_ros2_driver_imu.so[0m
+[29.774s] [ 62%] [32m[1mLinking CXX shared library libwebots_ros2_driver_rgbd.so[0m
+[30.067s] [ 62%] Built target webots_ros2_driver_imu
+[30.081s] [ 66%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2RangeFinder.cpp.o[0m
+[30.187s] [ 66%] Built target webots_ros2_driver_rgbd
+[30.200s] [ 70%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2DistanceSensor.cpp.o[0m
+[37.732s] [ 74%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2LightSensor.cpp.o[0m
+[37.843s] [ 77%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Emitter.cpp.o[0m
+[39.899s] [ 81%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Receiver.cpp.o[0m
+[40.180s] [ 85%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Compass.cpp.o[0m
+[41.966s] [ 88%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2VacuumGripper.cpp.o[0m
+[42.943s] [ 92%] [32mBuilding CXX object CMakeFiles/driver.dir/src/utils/Math.cpp.o[0m
+[44.785s] [ 96%] [32mBuilding CXX object CMakeFiles/driver.dir/src/utils/Utils.cpp.o[0m
+[56.109s] [100%] [32m[1mLinking CXX executable driver[0m
+[58.241s] [100%] Built target driver
+[58.250s] Invoked command in '/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection:/opt/ros/humble CMAKE_PREFIX_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_control:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection:/opt/ros/humble LD_LIBRARY_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_control/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_importer:/home/gisbert12843/ros2_ws/build/aruco_marker_detection:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_driver -- -j8 -l8
+[58.307s] Invoking command in '/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_driver': AMENT_PREFIX_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection:/opt/ros/humble CMAKE_PREFIX_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_control:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection:/opt/ros/humble LD_LIBRARY_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_control/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_importer:/home/gisbert12843/ros2_ws/build/aruco_marker_detection:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_driver
+[58.313s] -- Install configuration: ""
+[58.313s] -- Execute custom install script
+[58.313s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/pythonpath.sh
+[58.321s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/pythonpath.dsv
+[58.328s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller-2023.1.3-py3.10.egg-info/PKG-INFO
+[58.334s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller-2023.1.3-py3.10.egg-info/SOURCES.txt
+[58.340s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller-2023.1.3-py3.10.egg-info/dependency_links.txt
+[58.346s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller-2023.1.3-py3.10.egg-info/top_level.txt
+[58.353s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/__init__.py
+[58.360s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/accelerometer.py
+[58.366s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/altimeter.py
+[58.373s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/ansi_codes.py
+[58.379s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/brake.py
+[58.386s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/camera.py
+[58.393s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/compass.py
+[58.399s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/connector.py
+[58.406s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/constants.py
+[58.413s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/device.py
+[58.419s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/display.py
+[58.426s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/distance_sensor.py
+[58.433s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/emitter.py
+[58.439s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/field.py
+[58.445s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/gps.py
+[58.452s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/gyro.py
+[58.458s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/inertial_unit.py
+[58.465s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/joystick.py
+[58.471s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/keyboard.py
+[58.478s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/led.py
+[58.484s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/lidar.py
+[58.491s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/lidar_point.py
+[58.497s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/light_sensor.py
+[58.504s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/motion.py
+[58.510s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/motor.py
+[58.517s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/mouse.py
+[58.524s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/node.py
+[58.530s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/pen.py
+[58.537s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/position_sensor.py
+[58.543s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/radar.py
+[58.549s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/radar_target.py
+[58.556s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/range_finder.py
+[58.563s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/receiver.py
+[58.569s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/robot.py
+[58.576s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/sensor.py
+[58.582s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/skin.py
+[58.589s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/speaker.py
+[58.595s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/supervisor.py
+[58.602s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/touch_sensor.py
+[58.608s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/vacuum_gripper.py
+[58.615s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/wb.py
+[58.622s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle-2023.1.3-py3.10.egg-info/PKG-INFO
+[58.628s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle-2023.1.3-py3.10.egg-info/SOURCES.txt
+[58.635s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle-2023.1.3-py3.10.egg-info/dependency_links.txt
+[58.641s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle-2023.1.3-py3.10.egg-info/top_level.txt
+[58.648s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/__init__.py
+[58.654s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/car.py
+[58.661s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/driver.py
+[58.667s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver-2023.1.3-py3.10.egg-info/PKG-INFO
+[58.674s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver-2023.1.3-py3.10.egg-info/SOURCES.txt
+[58.680s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver-2023.1.3-py3.10.egg-info/dependency_links.txt
+[58.687s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver-2023.1.3-py3.10.egg-info/top_level.txt
+[58.693s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/__init__.py
+[58.700s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/ros2_supervisor.py
+[58.706s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/urdf_spawner.py
+[58.712s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/utils.py
+[58.719s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/wait_for_controller_connection.py
+[58.725s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/webots_controller.py
+[58.731s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/webots_launcher.py
+[58.738s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/PluginInterface.hpp
+[58.745s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/PythonPlugin.hpp
+[58.751s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/WebotsNode.hpp
+[58.758s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/Ros2SensorPlugin.hpp
+[58.764s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/dynamic/Ros2IMU.hpp
+[58.771s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/dynamic/Ros2RGBD.hpp
+[58.777s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Camera.hpp
+[58.784s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Compass.hpp
+[58.791s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2DistanceSensor.hpp
+[58.797s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Emitter.hpp
+[58.804s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2GPS.hpp
+[58.810s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2LED.hpp
+[58.817s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Lidar.hpp
+[58.824s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2LightSensor.hpp
+[58.830s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Pen.hpp
+[58.837s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2RangeFinder.hpp
+[58.844s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Receiver.hpp
+[58.850s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2VacuumGripper.hpp
+[58.857s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/utils/Math.hpp
+[58.863s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots_ros2_driver/utils/Utils.hpp
+[58.870s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/driver
+[58.877s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib/libwebots_ros2_driver_imu.so
+[58.884s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib/libwebots_ros2_driver_rgbd.so
+[58.892s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/accelerometer.h
+[58.898s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/altimeter.h
+[58.905s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/brake.h
+[58.912s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/camera.h
+[58.919s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/camera_recognition_object.h
+[58.925s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/compass.h
+[58.932s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/connector.h
+[58.938s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/console.h
+[58.944s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/contact_point.h
+[58.951s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/device.h
+[58.957s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/display.h
+[58.963s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/distance_sensor.h
+[58.970s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/emitter.h
+[58.976s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/gps.h
+[58.983s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/gyro.h
+[58.989s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/inertial_unit.h
+[58.996s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/joystick.h
+[59.002s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/keyboard.h
+[59.009s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/led.h
+[59.016s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/lidar.h
+[59.023s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/lidar_point.h
+[59.030s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/light_sensor.h
+[59.036s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/microphone.h
+[59.043s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/motor.h
+[59.049s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/mouse.h
+[59.056s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/mouse_state.h
+[59.063s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/nodes.h
+[59.070s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/pen.h
+[59.077s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/default.h
+[59.083s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/generic_robot_window/generic.h
+[59.090s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/robot_window.h
+[59.097s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/robot_wwi.h
+[59.104s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/position_sensor.h
+[59.110s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/radar.h
+[59.117s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/radar_target.h
+[59.124s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/radio.h
+[59.131s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/range_finder.h
+[59.137s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/receiver.h
+[59.144s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/remote_control.h
+[59.150s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/robot.h
+[59.157s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/skin.h
+[59.163s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/speaker.h
+[59.170s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/supervisor.h
+[59.176s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/touch_sensor.h
+[59.183s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/types.h
+[59.190s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/utils/ansi_codes.h
+[59.196s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/utils/motion.h
+[59.203s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/utils/string.h
+[59.210s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/utils/system.h
+[59.216s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/vacuum_gripper.h
+[59.223s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/vehicle/car.h
+[59.230s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/c/webots/vehicle/driver.h
+[59.237s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Accelerometer.hpp
+[59.244s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Altimeter.hpp
+[59.251s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Brake.hpp
+[59.257s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Camera.hpp
+[59.264s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Compass.hpp
+[59.271s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Connector.hpp
+[59.278s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Device.hpp
+[59.284s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Display.hpp
+[59.291s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/DistanceSensor.hpp
+[59.298s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Emitter.hpp
+[59.304s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Field.hpp
+[59.311s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/GPS.hpp
+[59.317s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Gyro.hpp
+[59.324s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/ImageRef.hpp
+[59.331s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/InertialUnit.hpp
+[59.337s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Joystick.hpp
+[59.344s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Keyboard.hpp
+[59.350s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/LED.hpp
+[59.364s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Lidar.hpp
+[59.370s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/LightSensor.hpp
+[59.378s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Motor.hpp
+[59.384s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Mouse.hpp
+[59.391s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Node.hpp
+[59.398s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Pen.hpp
+[59.405s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/PositionSensor.hpp
+[59.411s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Radar.hpp
+[59.418s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/RangeFinder.hpp
+[59.425s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Receiver.hpp
+[59.432s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Robot.hpp
+[59.439s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Skin.hpp
+[59.445s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Speaker.hpp
+[59.452s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Supervisor.hpp
+[59.459s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/TouchSensor.hpp
+[59.465s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/VacuumGripper.hpp
+[59.472s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/utils/AnsiCodes.hpp
+[59.479s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/utils/Motion.hpp
+[59.486s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/vehicle/Car.hpp
+[59.492s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/include/webots/cpp/webots/vehicle/Driver.hpp
+[59.501s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib/controller/libController.so
+[59.508s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib/controller/libCppCar.so
+[59.514s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib/controller/libCppController.so
+[59.521s] -- Up-to-date symlink: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib/controller/libCppController.so
+[59.522s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib/controller/libCppDriver.so
+[59.529s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib/controller/libcar.so
+[59.535s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib/controller/libdriver.so
+[59.542s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib/controller/libgeneric_robot_window.so
+[59.548s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib/controller/python/vehicle/car.py
+[59.555s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib/controller/python/vehicle/driver.py
+[59.562s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver//webots_ros2_imu.xml
+[59.569s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver//webots_ros2_rgbd.xml
+[59.576s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/ros2_supervisor.py
+[59.583s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/scripts/webots_tcp_client.py
+[59.589s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/scripts/webots-controller
+[59.596s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/library_path.sh
+[59.603s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/library_path.dsv
+[59.610s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/ament_index/resource_index/package_run_dependencies/webots_ros2_driver
+[59.617s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/ament_index/resource_index/parent_prefix_path/webots_ros2_driver
+[59.624s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/ament_prefix_path.sh
+[59.631s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/ament_prefix_path.dsv
+[59.637s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/path.sh
+[59.643s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/path.dsv
+[59.650s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.bash
+[59.657s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.sh
+[59.664s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.zsh
+[59.671s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.dsv
+[59.678s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/package.dsv
+[59.685s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/ament_index/resource_index/packages/webots_ros2_driver
+[59.692s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/webots_ros2_driver
+[59.699s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.705s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.712s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[59.719s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/webots_ros2_driverConfig.cmake
+[59.726s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/webots_ros2_driverConfig-version.cmake
+[59.732s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/share/webots_ros2_driver/package.xml
+[59.792s] Listing '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller'...
+[59.792s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/__init__.py'...
+[59.792s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/accelerometer.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/altimeter.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/ansi_codes.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/brake.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/camera.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/compass.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/connector.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/constants.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/device.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/display.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/distance_sensor.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/emitter.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/field.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/gps.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/gyro.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/inertial_unit.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/joystick.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/keyboard.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/led.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/lidar.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/lidar_point.py'...
+[59.793s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/light_sensor.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/motion.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/motor.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/mouse.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/node.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/pen.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/position_sensor.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/radar.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/radar_target.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/range_finder.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/receiver.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/robot.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/sensor.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/skin.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/speaker.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/supervisor.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/touch_sensor.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/vacuum_gripper.py'...
+[59.794s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/wb.py'...
+[59.828s] Listing '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle'...
+[59.828s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/__init__.py'...
+[59.828s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/car.py'...
+[59.828s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/driver.py'...
+[59.867s] Listing '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver'...
+[59.867s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/__init__.py'...
+[59.867s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/ros2_supervisor.py'...
+[59.867s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/urdf_spawner.py'...
+[59.867s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/utils.py'...
+[59.867s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/wait_for_controller_connection.py'...
+[59.867s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/webots_controller.py'...
+[59.867s] Compiling '/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/webots_launcher.py'...
+[59.873s] Invoked command in '/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection:/opt/ros/humble CMAKE_PREFIX_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_control:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection:/opt/ros/humble LD_LIBRARY_PATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_control/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_importer:/home/gisbert12843/ros2_ws/build/aruco_marker_detection:/home/gisbert12843/Robotics_Prak/prak2_ws/install/aruco_marker_detection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_driver

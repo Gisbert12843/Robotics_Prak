@@ -1,3 +1,3 @@
 # generated from colcon_core/shell/template/hook_prepend_value.sh.em
 
-_colcon_prepend_unique_value PYTHONPATH "/home/gisbert12843/ros2_ws/build/aruco_marker_detection"
+_colcon_prepend_unique_value PYTHONPATH "/home/gisbert12843/Robotics_Prak/prak2_ws/build/aruco_marker_detection"

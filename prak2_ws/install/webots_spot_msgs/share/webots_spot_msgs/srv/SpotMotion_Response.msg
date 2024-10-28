@@ -1,1 +1,1 @@
-/home/gisbert12843/ros2_ws/build/webots_spot_msgs/rosidl_cmake/srv/SpotMotion_Response.msg
+/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot_msgs/rosidl_cmake/srv/SpotMotion_Response.msg

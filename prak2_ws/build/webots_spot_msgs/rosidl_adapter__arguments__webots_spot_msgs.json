@@ -1,13 +1,13 @@
 {
   "package_name": "webots_spot_msgs",
   "non_idl_tuples": [
-    "/home/gisbert12843/ros2_ws/src/webots_spot_msgs:msg/Int32.msg",
-    "/home/gisbert12843/ros2_ws/src/webots_spot_msgs:msg/Legs.msg",
-    "/home/gisbert12843/ros2_ws/src/webots_spot_msgs:msg/GaitInput.msg",
-    "/home/gisbert12843/ros2_ws/src/webots_spot_msgs:srv/SpotMotion.srv",
-    "/home/gisbert12843/ros2_ws/src/webots_spot_msgs:srv/SpotHeight.srv",
-    "/home/gisbert12843/ros2_ws/src/webots_spot_msgs:srv/BlockPose.srv",
-    "/home/gisbert12843/ros2_ws/src/webots_spot_msgs:action/Stack.action",
-    "/home/gisbert12843/ros2_ws/src/webots_spot_msgs:action/PeakAndDetectObject.action"
+    "/home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_spot_msgs:msg/Int32.msg",
+    "/home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_spot_msgs:msg/Legs.msg",
+    "/home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_spot_msgs:msg/GaitInput.msg",
+    "/home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_spot_msgs:srv/SpotMotion.srv",
+    "/home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_spot_msgs:srv/SpotHeight.srv",
+    "/home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_spot_msgs:srv/BlockPose.srv",
+    "/home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_spot_msgs:action/Stack.action",
+    "/home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_spot_msgs:action/PeakAndDetectObject.action"
   ]
 }

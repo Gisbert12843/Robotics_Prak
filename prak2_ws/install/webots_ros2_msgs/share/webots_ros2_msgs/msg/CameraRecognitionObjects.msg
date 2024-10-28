@@ -1,1 +1,1 @@
-/home/gisbert12843/ros2_ws/src/webots_ros2/webots_ros2_msgs/msg/CameraRecognitionObjects.msg
+/home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_msgs/msg/CameraRecognitionObjects.msg

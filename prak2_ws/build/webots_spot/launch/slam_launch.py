@@ -1,1 +1,1 @@
-/home/gisbert12843/ros2_ws/src/webots_ros2_spot/launch/slam_launch.py
+/home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2_spot/launch/slam_launch.py

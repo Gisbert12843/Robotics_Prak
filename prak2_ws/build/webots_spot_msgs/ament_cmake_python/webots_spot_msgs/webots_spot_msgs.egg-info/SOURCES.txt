@@ -4,14 +4,3 @@ webots_spot_msgs.egg-info/PKG-INFO
 webots_spot_msgs.egg-info/SOURCES.txt
 webots_spot_msgs.egg-info/dependency_links.txt
 webots_spot_msgs.egg-info/top_level.txt
-webots_spot_msgs/action/__init__.py
-webots_spot_msgs/action/_peak_and_detect_object.py
-webots_spot_msgs/action/_stack.py
-webots_spot_msgs/msg/__init__.py
-webots_spot_msgs/msg/_gait_input.py
-webots_spot_msgs/msg/_int32.py
-webots_spot_msgs/msg/_legs.py
-webots_spot_msgs/srv/__init__.py
-webots_spot_msgs/srv/_block_pose.py
-webots_spot_msgs/srv/_spot_height.py
-webots_spot_msgs/srv/_spot_motion.py

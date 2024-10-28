@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gisbert12843/ros2_ws/src/webots_spot_msgs
+CMAKE_SOURCE_DIR = /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_spot_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gisbert12843/ros2_ws/build/webots_spot_msgs
+CMAKE_BINARY_DIR = /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot_msgs
 
 # Utility rule file for ament_cmake_python_symlink_webots_spot_msgs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_webots_spot_msgs.dir/compiler_depe
 include CMakeFiles/ament_cmake_python_symlink_webots_spot_msgs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_webots_spot_msgs:
-	/usr/bin/cmake -E create_symlink /home/gisbert12843/ros2_ws/build/webots_spot_msgs/rosidl_generator_py/webots_spot_msgs /home/gisbert12843/ros2_ws/build/webots_spot_msgs/ament_cmake_python/webots_spot_msgs/webots_spot_msgs
+	/usr/bin/cmake -E create_symlink /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot_msgs/rosidl_generator_py/webots_spot_msgs /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot_msgs/ament_cmake_python/webots_spot_msgs/webots_spot_msgs
 
 ament_cmake_python_symlink_webots_spot_msgs: CMakeFiles/ament_cmake_python_symlink_webots_spot_msgs
 ament_cmake_python_symlink_webots_spot_msgs: CMakeFiles/ament_cmake_python_symlink_webots_spot_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_webots_spot_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_webots_spot_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_webots_spot_msgs.dir/depend:
-	cd /home/gisbert12843/ros2_ws/build/webots_spot_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gisbert12843/ros2_ws/src/webots_spot_msgs /home/gisbert12843/ros2_ws/src/webots_spot_msgs /home/gisbert12843/ros2_ws/build/webots_spot_msgs /home/gisbert12843/ros2_ws/build/webots_spot_msgs /home/gisbert12843/ros2_ws/build/webots_spot_msgs/CMakeFiles/ament_cmake_python_symlink_webots_spot_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_spot_msgs /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_spot_msgs /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot_msgs /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot_msgs /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot_msgs/CMakeFiles/ament_cmake_python_symlink_webots_spot_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_symlink_webots_spot_msgs.dir/depend
 

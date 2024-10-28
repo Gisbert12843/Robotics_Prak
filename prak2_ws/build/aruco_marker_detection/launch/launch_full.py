@@ -1,1 +1,1 @@
-/home/gisbert12843/ros2_ws/src/aruco_marker_detection/launch/launch_full.py
+/home/gisbert12843/Robotics_Prak/prak2_ws/src/aruco_marker_detection/launch/launch_full.py
