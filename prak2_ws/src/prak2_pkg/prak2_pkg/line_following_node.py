@@ -14,13 +14,22 @@ class LineFollower(Node):
   def __init__(self):
         super().__init__("line_follower")
         self.camera_sub = self.create_subscription(Image, "/Spot/kinect_color/image_color", self.camera_cb, 10)
+        super().__init__("line_follower")
+        self.camera_sub = self.create_subscription(Image, "/Spot/kinect_color/image_color", self.camera_cb, 10)
 
         cv2.namedWindow("Gripper Img", cv2.WINDOW_NORMAL)
         cv2.namedWindow("Red Mask", cv2.WINDOW_NORMAL)
 
         cv2.moveWindow("Gripper Img", 800, 900)
         cv2.moveWindow("Red Mask", 1300, 900)
+        cv2.namedWindow("Gripper Img", cv2.WINDOW_NORMAL)
+        cv2.namedWindow("Red Mask", cv2.WINDOW_NORMAL)
 
+        cv2.moveWindow("Gripper Img", 800, 900)
+        cv2.moveWindow("Red Mask", 1300, 900)
+
+        cv2.resizeWindow("Gripper Img", 400, 300)
+        cv2.resizeWindow("Red Mask", 400, 300)
         cv2.resizeWindow("Gripper Img", 400, 300)
         cv2.resizeWindow("Red Mask", 400, 300)
 
@@ -37,8 +46,15 @@ class LineFollower(Node):
       # 330-360 degrees -> 233-255 (255/360*330 =~= 233) Upperbound Hue
       # 40%-100% -> 255/100*40 = 102 (Saturation and Value)
       red_lower_hsv = numpy.array([0, 102, 102], dtype="uint8")
+      # Hue, Saturation, Value
+      # 330-360 degrees -> 233-255 (255/360*330 =~= 233) Upperbound Hue
+      # 40%-100% -> 255/100*40 = 102 (Saturation and Value)
+      red_lower_hsv = numpy.array([0, 102, 102], dtype="uint8")
       red_upper_hsv = numpy.array([10, 255, 255], dtype="uint8")
       red_mask0 = cv2.inRange(image, red_lower_hsv, red_upper_hsv)
+ 
+      red_lower_hsv = numpy.array([233, 102, 102], dtype="uint8")
+      red_upper_hsv = numpy.array([255, 255, 255], dtype="uint8")
  
       red_lower_hsv = numpy.array([233, 102, 102], dtype="uint8")
       red_upper_hsv = numpy.array([255, 255, 255], dtype="uint8")
@@ -227,6 +243,13 @@ class LineFollower(Node):
       print("\n")
 
       cv2.waitKey(1)
+      # while(1):
+      #     pass
+
+
+
+
+
       # while(1):
       #     pass
 
