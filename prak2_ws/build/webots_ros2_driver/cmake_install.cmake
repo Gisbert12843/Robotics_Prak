@@ -1,8 +1,8 @@
-# Install script for directory: /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver
+# Install script for directory: /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver")
+  set(CMAKE_INSTALL_PREFIX "/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/install/webots_ros2_driver")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_driver/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_ros2_driver/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller"
+        "/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller"
       )
 endif()
 
@@ -58,7 +58,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle"
+        "/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle"
       )
 endif()
 
@@ -66,7 +66,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver"
+        "/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver"
       )
 endif()
 
@@ -78,5 +78,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_driver/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_ros2_driver/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

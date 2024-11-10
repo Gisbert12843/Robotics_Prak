@@ -1,0 +1,271 @@
+#!/usr/bin/env python3
+
+import cv2
+import rclpy
+from rclpy.node import Node
+from cv_bridge import CvBridge
+from sensor_msgs.msg import Image
+import time
+import numpy as numpy
+from geometry_msgs.msg import Twist, Vector3
+
+message_delay = 100
+messages_per_second = 1000 / message_delay
+
+
+class LineFollower(Node):
+    
+    def __init__(self):
+        super().__init__("line_follower_instance_1")
+        self.camera_subscriber = self.create_subscription(Image, "/Spot/kinect_color/image_color", self.camera_cb, 10)
+
+        self.publisher = self.create_publisher(Twist, 'move_cmd', 10)
+
+
+        self.closest_possible_point = (0, 0)
+        self.main_algo_counter = 0
+
+
+        cv2.namedWindow("Gripper Img", cv2.WINDOW_NORMAL)
+        cv2.namedWindow("Red Mask", cv2.WINDOW_NORMAL)
+
+        cv2.moveWindow("Gripper Img", 800, 900)
+        cv2.moveWindow("Red Mask", 1300, 900)
+
+        cv2.resizeWindow("Gripper Img", 400, 300)
+        cv2.resizeWindow("Red Mask", 400, 300)
+
+    def convert_to_hsv_colorspace(self, image):
+        original = image.copy()
+        image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+
+        return image, original
+    
+    def filter_red_from_hsv_image(self, hsv_image):
+        
+        # Hue, Saturation, Value
+        # 330-360 degrees -> 233-255 (255/360*330 =~= 233) Upperbound Hue
+        # 40%-100% -> 255/100*40 = 102 (Saturation and Value)
+        
+        lower_red1 = numpy.array([0, 50, 50])      # Darker red range to account for variations in lighting
+        upper_red1 = numpy.array([10, 255, 255])
+        red_mask1 = cv2.inRange(hsv_image, lower_red1, upper_red1)
+  
+        lower_red2 = numpy.array([150, 50, 50])    # Lighter, slightly more reflective reds
+        upper_red2 = numpy.array([180, 255, 255])
+        red_mask2 = cv2.inRange(hsv_image, lower_red2, upper_red2)
+
+        red_mask = red_mask1 | red_mask2
+        return red_mask
+
+    def filter_mark_and_conquer(self, image, red_mask):
+      
+      # Find contours in the red mask
+      red_contours = cv2.findContours(red_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+      red_contours = red_contours[0] if len(red_contours) == 2 else red_contours[1]
+
+
+      self.rect_size = 2 # 4 is a good value it seems to fill the contours almost perfectly without much excess
+      pol_list = []
+
+      left_anchor = False
+      middle_close_anchor = False
+      middle_far_anchor = False
+      right_anchor = False
+
+      closest_polygon = (0, 0, cv2.norm(numpy.array((0, 0)), numpy.array(self.closest_possible_point), cv2.NORM_L2))
+
+      for c in red_contours:
+          # Get the bounding box of the contour
+          x, y, w, h = cv2.boundingRect(c)
+
+          # Skip contours that are smaller than rect_size x rect_size
+          if w < self.rect_size or h < self.rect_size:
+              continue
+
+          # Loop through the bounding box area in steps of self.rect_size
+          for i in range(x+self.rect_size//2, x + w-self.rect_size//2, self.rect_size):
+                           
+              for j in range(y+self.rect_size // 2, y + h - self.rect_size // 2, self.rect_size):
+                  # Check if the rectangle (i, j, self.rect_size, self.rect_size) is within the contour
+                  if 0 <= cv2.pointPolygonTest(c, (i + self.rect_size // 2, j + self.rect_size // 2), False):
+                      # Draw the 10x10 rectangle within the contour
+                      cv2.rectangle(self.spot_gripper_img, (i, j), (i + self.rect_size, j + self.rect_size), (36, 255, 12), -1)
+
+
+
+                      # calculate the center of the polygon and the distance to the closest possible point (closest_possible_point)
+                      pol_centr_and_distance = (
+                        round(i + self.rect_size // 2),
+                        round(j + self.rect_size // 2),
+                        cv2.norm(
+                          numpy.array((i + self.rect_size // 2, j + self.rect_size // 2)),
+                          numpy.array((self.image_width // 2, self.image_height)),
+                          cv2.NORM_L2
+                        )
+                      )
+                      if(pol_centr_and_distance[2] < 100):
+                          pol_list.append([pol_centr_and_distance[0], pol_centr_and_distance[1]])
+
+                      
+                      print(pol_centr_and_distance[0], pol_centr_and_distance[1], pol_centr_and_distance[2])
+                      
+                      if(pol_centr_and_distance[2] < closest_polygon[2]): #if the distance to the closest possible point is smaller than the previous closest polygon
+                          
+                          print(f"point: {pol_centr_and_distance} is closer than {closest_polygon}")
+                          closest_polygon = pol_centr_and_distance
+
+                          print(f"Comparing {pol_centr_and_distance[0]} with {self.image_width // 2*0.98} and {self.image_width // 2*1.02} and {pol_centr_and_distance[1]} with {self.image_height*0.90}")
+                          if pol_centr_and_distance[0] >= self.image_width // 2*0.98 and pol_centr_and_distance[0] <= self.image_width // 2*1.02 and pol_centr_and_distance[1] >= self.image_height*0.90:
+                              middle_close_anchor = True
+                          elif pol_centr_and_distance[0] >= self.image_width // 2*0.98 and pol_centr_and_distance[0] <= self.image_width // 2*1.02: #here we can skip the y-axis check, because we are already in the x-axis range that isnt a middle_anchor candidate
+                              middle_far_anchor = True
+
+                          elif i > self.image_width // 2*1.02:
+                              right_anchor = True
+                              left_anchor = False
+
+                          elif i < self.image_width // 2*0.98:
+                              right_anchor = False
+                              left_anchor = True
+
+      if middle_close_anchor:
+          print(f"Middle Close Anchor found at {closest_polygon}") #start line following mode ?
+          return image, red_contours, 0, pol_list
+      elif middle_far_anchor:
+          print(f"Middle Far Anchor found at {closest_polygon}") #go straight ahead ?
+          return image, red_contours, 3, pol_list
+      elif left_anchor:
+          print(f"Left anchor found at {closest_polygon}") #go to the left ?
+          return image, red_contours, 1, pol_list
+      elif right_anchor:
+          print(f"Right anchor found at {closest_polygon}") #go to the right ?
+          return image, red_contours, 2, pol_list
+      
+      print("No anchor found") #turn 360° ?
+      return image, red_contours, -1, pol_list
+    
+
+    def line_following_mode(self, red_mask, red_contours, pol_list):
+        print("Line following mode activated")
+        if len(pol_list) > 1:
+            print("Line found")
+            points = numpy.array([[x, y] for x, y in pol_list], dtype=numpy.float32)
+            [vx, vy, x0, y0] = cv2.fitLine(points, cv2.DIST_L2, 0, 0.01, 0.01)
+
+            twist_msg = Twist()
+            linear_speed = 1.0
+            twist_msg.linear.x = float(linear_speed * vx)
+            twist_msg.linear.y = float(linear_speed * vy)
+
+            angle_to_line = float(numpy.arctan2(vy, vx))
+            twist_msg.angular.z = angle_to_line
+
+            self.publisher.publish(twist_msg)
+        else:
+            print("Line not found")
+            twist_msg = Twist()
+            twist_msg.linear.x = 1.0
+            twist_msg.angular.z = 0.0
+            self.publisher.publish(twist_msg)
+
+
+
+    def main_algorythm(self, red_mask):
+        self.spot_gripper_img, red_contours, found_achor_direction, pol_list = self.filter_mark_and_conquer(self.spot_gripper_img, red_mask)
+
+        match found_achor_direction:
+            case -1:
+                print("No anchor found, looking around")
+                twist_msg = Twist()
+                twist_msg.linear.x = 0.1
+                twist_msg.angular.z = 0.1
+                self.publisher.publish(twist_msg)
+                time.sleep(1)
+                twist_msg.linear.x = -0.1
+                twist_msg.angular.z = 0.1
+                self.publisher.publish(twist_msg)
+                time.sleep(1)
+
+            case 0:
+                print("Middle Close Anchor found, starting line following mode")
+                self.line_following_mode(red_mask, red_contours, pol_list)
+            case 1:
+                print("Left anchor found, turning left")
+                twist_msg = Twist()
+                twist_msg.linear.x = 0.1
+                twist_msg.angular.z = 0.1
+                self.publisher.publish(twist_msg)
+                time.sleep(0.4)
+                twist_msg.linear.x = -0.1
+                self.publisher.publish(twist_msg)
+                time.sleep(0.4)
+            case 2:
+                print("Right anchor found, turning right")
+                twist_msg = Twist()
+                twist_msg.linear.x = 0.1
+                twist_msg.angular.z = -0.1
+                self.publisher.publish(twist_msg)
+                time.sleep(0.4)
+                twist_msg.linear.x = -0.1
+                twist_msg.angular.z = -0.1
+                self.publisher.publish(twist_msg)
+                time.sleep(0.4)
+            case 3:
+                print("Middle Far found, going straight ahead")
+                twist_msg = Twist()
+                twist_msg.linear.x = 1.0
+                twist_msg.angular.z = 0.0
+                self.publisher.publish(twist_msg)
+
+        if found_achor_direction != -1:
+            self.main_algo_counter = 0
+        return  
+
+
+
+        
+      
+    def camera_cb(self, msg):
+        #convert from ROS msg to OpenCV image
+        self.spot_gripper_img = CvBridge().imgmsg_to_cv2(msg, desired_encoding='bgr8') #bgr8 is OpenCV’s default color format
+        self.image_height, self.image_width, _ = self.spot_gripper_img.shape
+
+        self.spot_current_speed = 0.0
+        self.spot_current_linear_speed = 0.0
+        self.spot_current_angular_speed = 0.0
+
+        hsv_converted_image = self.convert_to_hsv_colorspace(self.spot_gripper_img)[0]
+        red_mask = self.filter_red_from_hsv_image(hsv_converted_image)
+
+        self.main_algorythm(red_mask)
+
+        self.image_height, self.image_width, _ = self.spot_gripper_img.shape
+        self.closest_possible_point = (self.image_height, self.image_width // 2)
+
+        print(f"Image Width: {self.image_width}, Image Height: {self.image_height}")
+
+
+
+        cv2.imshow("Gripper Img", self.spot_gripper_img)
+        cv2.imshow("Red Mask", hsv_converted_image)
+        print("\n\n\n\n")
+
+        cv2.waitKey(message_delay)
+        # while(1):
+        #     pass
+
+
+
+
+
+def main(args=None):
+
+    rclpy.init(args=args)
+    line_follower_node = LineFollower()
+    rclpy.spin(line_follower_node)
+    rclpy.shutdown()
+
+
+if __name__ == "__main__":
+    main()

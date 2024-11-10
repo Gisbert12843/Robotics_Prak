@@ -1,8 +1,8 @@
-# Install script for directory: /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot_msgs/webots_spot_msgs__py
+# Install script for directory: /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_spot_msgs/webots_spot_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/install/webots_spot_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -23,9 +23,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'aruco_marker_detection_node = prak2_pkg.aruco_marker_detection_node:main',
-            'line_following_node = prak2_pkg.line_following_node:main'
+            'aruco_marker_detection_node = prak2_pkg.nodes.aruco_marker_detection_node:main',
+            'line_following_node = prak2_pkg.nodes.line_following_node:main',
+            'speed_controller_node = prak2_pkg.controllers.speed_controller:main',
         ],
     },
 )
- 

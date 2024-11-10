@@ -1,1 +1,1 @@
-/home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Camera.hpp
+/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Camera.hpp

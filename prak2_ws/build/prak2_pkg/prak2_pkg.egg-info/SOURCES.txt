@@ -5,8 +5,6 @@ launch/launch_detection.py
 launch/launch_full.py
 launch/launch_line_detection.py
 prak2_pkg/__init__.py
-prak2_pkg/aruco_marker_detection_node.py
-prak2_pkg/line_following_node.py
 prak2_pkg.egg-info/PKG-INFO
 prak2_pkg.egg-info/SOURCES.txt
 prak2_pkg.egg-info/dependency_links.txt
@@ -14,4 +12,9 @@ prak2_pkg.egg-info/entry_points.txt
 prak2_pkg.egg-info/requires.txt
 prak2_pkg.egg-info/top_level.txt
 prak2_pkg.egg-info/zip-safe
+prak2_pkg/controllers/__init__.py
+prak2_pkg/controllers/speed_controller.py
+prak2_pkg/nodes/__init__.py
+prak2_pkg/nodes/aruco_marker_detection_node.py
+prak2_pkg/nodes/line_following_node.py
 resource/prak2_pkg

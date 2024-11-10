@@ -1,0 +1,21 @@
+[0.404s] Invoking command in '/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/prak2_pkg': PYTHONPATH=/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/prak2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/install/prak2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/prak2_pkg/build --no-deps symlink_data
+[0.555s] running develop
+[0.555s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.555s]   warnings.warn(
+[0.656s] running egg_info
+[0.657s] writing prak2_pkg.egg-info/PKG-INFO
+[0.657s] writing dependency_links to prak2_pkg.egg-info/dependency_links.txt
+[0.657s] writing entry points to prak2_pkg.egg-info/entry_points.txt
+[0.657s] writing requirements to prak2_pkg.egg-info/requires.txt
+[0.657s] writing top-level names to prak2_pkg.egg-info/top_level.txt
+[0.658s] reading manifest file 'prak2_pkg.egg-info/SOURCES.txt'
+[0.658s] writing manifest file 'prak2_pkg.egg-info/SOURCES.txt'
+[0.659s] running build_ext
+[0.659s] Creating /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/install/prak2_pkg/lib/python3.10/site-packages/prak2-pkg.egg-link (link to .)
+[0.660s] Installing aruco_marker_detection_node script to /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/install/prak2_pkg/lib/prak2_pkg
+[0.660s] Installing line_following_node script to /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/install/prak2_pkg/lib/prak2_pkg
+[0.660s] Installing speed_controller_node script to /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/install/prak2_pkg/lib/prak2_pkg
+[0.660s] 
+[0.660s] Installed /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/prak2_pkg
+[0.660s] running symlink_data
+[0.674s] Invoked command in '/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/prak2_pkg' returned '0': PYTHONPATH=/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/prak2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/install/prak2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/prak2_pkg/build --no-deps symlink_data

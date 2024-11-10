@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_spot_msgs
+CMAKE_SOURCE_DIR = /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_spot_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot_msgs
+CMAKE_BINARY_DIR = /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_spot_msgs
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_spot_msgs /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_spot_msgs /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot_msgs /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot_msgs /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_spot_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_spot_msgs /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_spot_msgs /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_spot_msgs /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_spot_msgs /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_spot_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
