@@ -27,24 +27,30 @@ class LineFollower(Node):
             10)
 
         self.bridge = CvBridge()
+        main_monitor = None
 
-        for monitor in get_monitors():
-            if monitor.is_primary:
-                main_monitor = monitor
+        for m in get_monitors():
+            if m.is_primary:
+                main_monitor = m
                 break
+            
+        if main_monitor is None:
+            main_x = 0
+            main_y = 0
+        else:
+            main_x = main_monitor.x
+            main_y = main_monitor.y
+        
 
-        main_x = main_monitor.x
-        main_y = main_monitor.y
-
-        cv2.namedWindow("Camera View", cv2.WINDOW_NORMAL)
+        cv2.namedWindow("Camera View", cv2.WINDOW_GUI_NORMAL)
         cv2.moveWindow("Camera View", main_x + 400, main_y + 100)
         cv2.waitKey(1)
 
-        cv2.namedWindow("Red Mask", cv2.WINDOW_NORMAL)
+        cv2.namedWindow("Red Mask", cv2.WINDOW_GUI_NORMAL)
         cv2.moveWindow("Red Mask", main_x + 802, main_y + 100)
         cv2.waitKey(1)
 
-        cv2.namedWindow("Red Mask Adjusted", cv2.WINDOW_NORMAL)
+        cv2.namedWindow("Red Mask Adjusted", cv2.WINDOW_GUI_NORMAL)
         cv2.moveWindow("Red Mask Adjusted", main_x + 1204, main_y + 100)
         cv2.waitKey(1)
 
