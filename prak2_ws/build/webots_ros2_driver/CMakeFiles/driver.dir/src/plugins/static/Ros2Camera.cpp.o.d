@@ -1,7 +1,7 @@
 CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/src/plugins/static/Ros2Camera.cpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/src/plugins/static/Ros2Camera.cpp \
  /usr/include/stdc-predef.h \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Camera.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Camera.hpp \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -53,9 +53,9 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/camera.h \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/camera_recognition_object.h \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/types.h \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/camera.h \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/camera_recognition_object.h \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/types.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
@@ -204,10 +204,17 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/quoted_string.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp \
+ /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
@@ -220,6 +227,7 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/image_encodings.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp \
@@ -227,71 +235,90 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__type_support.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point32.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.hpp \
  /usr/include/kdl/frames.hpp /usr/include/kdl/utilities/kdl-config.h \
  /usr/include/kdl/utilities/utility.h \
  /usr/include/kdl/utilities/kdl-config.h /usr/include/c++/11/cassert \
@@ -350,8 +377,11 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -447,8 +477,6 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /opt/ros/humble/include/rcl/rcl/wait.h \
  /opt/ros/humble/include/rcl/rcl/client.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/humble/include/rcl/rcl/event_callback.h \
  /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
  /opt/ros/humble/include/rcl/rcl/node.h \
@@ -456,7 +484,6 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /opt/ros/humble/include/rcl/rcl/domain_id.h \
  /opt/ros/humble/include/rcl/rcl/service.h \
  /opt/ros/humble/include/rcl/rcl/subscription.h \
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/humble/include/rmw/rmw/message_sequence.h \
  /opt/ros/humble/include/rcl/rcl/timer.h \
  /opt/ros/humble/include/rcl/rcl/time.h \
@@ -512,7 +539,6 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
- /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
  /opt/ros/humble/include/rmw/rmw/error_handling.h \
  /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -572,6 +598,8 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -582,6 +610,8 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+ /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+ /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
@@ -609,6 +639,7 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -617,6 +648,7 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -625,6 +657,7 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
  /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
  /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -640,13 +673,16 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -679,26 +715,32 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
  /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -730,13 +772,17 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__traits.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__traits.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__traits.hpp \
+ /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d__type_support.hpp \
+ /opt/ros/humble/include/vision_msgs/vision_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detection2_d_array.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__builder.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__traits.hpp \
+ /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__type_support.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/object_hypothesis_with_pose.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__builder.hpp \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/include/webots_ros2_driver/WebotsNode.hpp \
+ /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__type_support.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/include/webots_ros2_driver/WebotsNode.hpp \
  /usr/include/tinyxml2.h /usr/include/c++/11/climits \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -746,9 +792,9 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/supervisor.h \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/contact_point.h \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/nodes.h \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/supervisor.h \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/contact_point.h \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/nodes.h \
  /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp \
  /opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp \
  /usr/include/c++/11/cstddef /usr/include/console_bridge/console.h \
@@ -789,16 +835,20 @@ CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/include/webots_ros2_driver/PluginInterface.hpp \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/include/webots_ros2_driver/plugins/Ros2SensorPlugin.hpp \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/range_finder.h \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/include/webots_ros2_driver/utils/Math.hpp \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/camera_recognition_object.hpp \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/detail/camera_recognition_object__struct.hpp \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/detail/camera_recognition_object__builder.hpp \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/detail/camera_recognition_object__traits.hpp \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/camera_recognition_objects.hpp \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/detail/camera_recognition_objects__struct.hpp \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/detail/camera_recognition_objects__builder.hpp \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/detail/camera_recognition_objects__traits.hpp \
- /home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/robot.h
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/include/webots_ros2_driver/PluginInterface.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/include/webots_ros2_driver/plugins/Ros2SensorPlugin.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/range_finder.h \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/include/webots_ros2_driver/utils/Math.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/camera_recognition_object.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/detail/camera_recognition_object__struct.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/detail/camera_recognition_object__builder.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/detail/camera_recognition_object__traits.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/camera_recognition_objects.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/detail/camera_recognition_objects__struct.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/detail/camera_recognition_objects__builder.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/detail/camera_recognition_objects__traits.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_msgs/rosidl_generator_cpp/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support.hpp \
+ /home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_ros2/webots_ros2_driver/webots/include/controller/c/webots/robot.h

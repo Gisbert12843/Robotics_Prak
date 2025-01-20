@@ -1,0 +1,9 @@
+source;share/prak3_pkg/hook/pythonpath.ps1
+source;share/prak3_pkg/hook/pythonpath.dsv
+source;share/prak3_pkg/hook/pythonpath.sh
+source;share/prak3_pkg/hook/ament_prefix_path.ps1
+source;share/prak3_pkg/hook/ament_prefix_path.dsv
+source;share/prak3_pkg/hook/ament_prefix_path.sh
+source;../../build/prak3_pkg/share/prak3_pkg/hook/pythonpath_develop.ps1
+source;../../build/prak3_pkg/share/prak3_pkg/hook/pythonpath_develop.dsv
+source;../../build/prak3_pkg/share/prak3_pkg/hook/pythonpath_develop.sh

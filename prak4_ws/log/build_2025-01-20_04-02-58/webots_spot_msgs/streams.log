@@ -1,0 +1,396 @@
+[0.403s] Invoking command in '/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_spot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg:/home/gisbert12843/ros2_ws/install/webots_ros2:/home/gisbert12843/ros2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/ros2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/ros2_ws/install/webots_ros2_tiago:/home/gisbert12843/ros2_ws/install/webots_ros2_tests:/home/gisbert12843/ros2_ws/install/webots_ros2_tesla:/home/gisbert12843/ros2_ws/install/webots_ros2_mavic:/home/gisbert12843/ros2_ws/install/webots_ros2_epuck:/home/gisbert12843/ros2_ws/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake /home/gisbert12843/Robotics_Prak/prak4_ws/src/webots_spot_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs
+[0.468s] -- The C compiler identification is GNU 11.4.0
+[0.538s] -- The CXX compiler identification is GNU 11.4.0
+[0.546s] -- Detecting C compiler ABI info
+[0.628s] -- Detecting C compiler ABI info - done
+[0.645s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.646s] -- Detecting C compile features
+[0.647s] -- Detecting C compile features - done
+[0.652s] -- Detecting CXX compiler ABI info
+[0.757s] -- Detecting CXX compiler ABI info - done
+[0.774s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.775s] -- Detecting CXX compile features
+[0.775s] -- Detecting CXX compile features - done
+[0.782s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.159s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.326s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.414s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.431s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.457s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.875s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.826s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.998s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.122s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.135s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.272s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.272s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.272s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.272s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.383s] -- Found PythonExtra: .so  
+[5.676s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.819s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.838s] -- Added test 'lint_cmake' to check CMake code style
+[5.850s] -- Added test 'xmllint' to check XML markup files
+[5.867s] -- Configuring done
+[6.016s] -- Generating done
+[6.062s] -- Build files have been written to: /home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_spot_msgs
+[6.090s] Invoked command in '/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_spot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg:/home/gisbert12843/ros2_ws/install/webots_ros2:/home/gisbert12843/ros2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/ros2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/ros2_ws/install/webots_ros2_tiago:/home/gisbert12843/ros2_ws/install/webots_ros2_tests:/home/gisbert12843/ros2_ws/install/webots_ros2_tesla:/home/gisbert12843/ros2_ws/install/webots_ros2_mavic:/home/gisbert12843/ros2_ws/install/webots_ros2_epuck:/home/gisbert12843/ros2_ws/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake /home/gisbert12843/Robotics_Prak/prak4_ws/src/webots_spot_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs
+[6.092s] Invoking command in '/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_spot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg:/home/gisbert12843/ros2_ws/install/webots_ros2:/home/gisbert12843/ros2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/ros2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/ros2_ws/install/webots_ros2_tiago:/home/gisbert12843/ros2_ws/install/webots_ros2_tests:/home/gisbert12843/ros2_ws/install/webots_ros2_tesla:/home/gisbert12843/ros2_ws/install/webots_ros2_mavic:/home/gisbert12843/ros2_ws/install/webots_ros2_epuck:/home/gisbert12843/ros2_ws/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --build /home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_spot_msgs -- -j8 -l8
+[6.233s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.281s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.318s] [  2%] Built target ament_cmake_python_symlink_webots_spot_msgs
+[7.552s] running egg_info
+[7.557s] creating webots_spot_msgs.egg-info
+[7.557s] writing webots_spot_msgs.egg-info/PKG-INFO
+[7.557s] writing dependency_links to webots_spot_msgs.egg-info/dependency_links.txt
+[7.557s] writing top-level names to webots_spot_msgs.egg-info/top_level.txt
+[7.558s] writing manifest file 'webots_spot_msgs.egg-info/SOURCES.txt'
+[7.575s] reading manifest file 'webots_spot_msgs.egg-info/SOURCES.txt'
+[7.581s] writing manifest file 'webots_spot_msgs.egg-info/SOURCES.txt'
+[7.722s] [  2%] Built target ament_cmake_python_build_webots_spot_msgs_egg
+[10.027s] [  2%] Built target webots_spot_msgs__cpp
+[10.050s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.051s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.053s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.640s] [  6%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_spot_msgs/srv/detail/spot_height__functions.c.o[0m
+[10.642s] [  8%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_spot_msgs/msg/detail/int32__functions.c.o[0m
+[10.652s] [  9%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_spot_msgs/msg/detail/gait_input__functions.c.o[0m
+[10.666s] [ 10%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_spot_msgs/srv/detail/spot_motion__functions.c.o[0m
+[10.682s] [ 11%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_spot_msgs/msg/detail/legs__functions.c.o[0m
+[10.825s] [ 12%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_spot_msgs/srv/detail/block_pose__functions.c.o[0m
+[10.921s] [ 13%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_spot_msgs/action/detail/stack__functions.c.o[0m
+[11.005s] [ 14%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_spot_msgs/action/detail/peak_and_detect_object__functions.c.o[0m
+[11.834s] [ 16%] [32m[1mLinking C shared library libwebots_spot_msgs__rosidl_generator_c.so[0m
+[12.135s] [ 16%] Built target webots_spot_msgs__rosidl_generator_c
+[12.205s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.207s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.219s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.247s] [ 20%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_spot_msgs/msg/detail/dds_fastrtps/int32__type_support.cpp.o[0m
+[14.282s] [ 21%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_spot_msgs/msg/detail/dds_fastrtps/gait_input__type_support.cpp.o[0m
+[14.295s] [ 22%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_spot_msgs/msg/detail/dds_fastrtps/legs__type_support.cpp.o[0m
+[14.703s] [ 24%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_spot_msgs/msg/int32__type_support.cpp.o[0m
+[14.867s] [ 25%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_spot_msgs/msg/detail/int32__type_support.cpp.o[0m
+[16.269s] [ 26%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_spot_msgs/msg/legs__type_support.cpp.o[0m
+[17.858s] [ 27%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_spot_msgs/msg/int32__type_support.cpp.o[0m
+[18.121s] [ 28%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_spot_msgs/msg/detail/legs__type_support.cpp.o[0m
+[18.144s] [ 29%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_spot_msgs/msg/legs__type_support.cpp.o[0m
+[18.335s] [ 31%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_spot_msgs/msg/gait_input__type_support.cpp.o[0m
+[18.615s] [ 32%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_spot_msgs/srv/spot_motion__type_support.cpp.o[0m
+[18.850s] [ 33%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_spot_msgs/srv/detail/dds_fastrtps/spot_height__type_support.cpp.o[0m
+[18.856s] [ 34%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_spot_msgs/srv/spot_height__type_support.cpp.o[0m
+[18.895s] [ 35%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_spot_msgs/msg/detail/int32__type_support.c.o[0m
+[19.048s] [ 36%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_spot_msgs/msg/detail/int32__type_support_c.cpp.o[0m
+[19.064s] [ 37%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_spot_msgs/srv/block_pose__type_support.cpp.o[0m
+[19.232s] [ 39%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_spot_msgs/msg/detail/legs__type_support.c.o[0m
+[19.232s] [ 40%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_spot_msgs/action/stack__type_support.cpp.o[0m
+[19.392s] [ 41%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_spot_msgs/msg/detail/gait_input__type_support.c.o[0m
+[19.669s] [ 42%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_spot_msgs/srv/detail/spot_motion__type_support.c.o[0m
+[19.692s] [ 43%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_spot_msgs/action/peak_and_detect_object__type_support.cpp.o[0m
+[19.917s] [ 44%] [32m[1mLinking CXX shared library libwebots_spot_msgs__rosidl_typesupport_c.so[0m
+[20.036s] [ 45%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_spot_msgs/srv/detail/spot_height__type_support.c.o[0m
+[20.084s] [ 47%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_spot_msgs/msg/gait_input__type_support.cpp.o[0m
+[20.318s] [ 48%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_spot_msgs/srv/detail/block_pose__type_support.c.o[0m
+[20.403s] [ 48%] Built target webots_spot_msgs__rosidl_typesupport_c
+[20.593s] [ 49%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_spot_msgs/action/detail/stack__type_support.c.o[0m
+[20.828s] [ 50%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_spot_msgs/action/detail/peak_and_detect_object__type_support.c.o[0m
+[21.065s] [ 51%] [32m[1mLinking C shared library libwebots_spot_msgs__rosidl_typesupport_introspection_c.so[0m
+[21.175s] [ 52%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_spot_msgs/srv/detail/dds_fastrtps/spot_motion__type_support.cpp.o[0m
+[21.281s] [ 52%] Built target webots_spot_msgs__rosidl_typesupport_introspection_c
+[21.714s] [ 54%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_spot_msgs/msg/detail/gait_input__type_support_c.cpp.o[0m
+[21.789s] [ 55%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_spot_msgs/srv/detail/spot_motion__type_support.cpp.o[0m
+[22.860s] [ 56%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_spot_msgs/srv/spot_height__type_support.cpp.o[0m
+[23.558s] [ 57%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_spot_msgs/srv/detail/dds_fastrtps/block_pose__type_support.cpp.o[0m
+[24.251s] [ 58%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_spot_msgs/msg/detail/legs__type_support_c.cpp.o[0m
+[25.158s] [ 59%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_spot_msgs/srv/detail/spot_height__type_support.cpp.o[0m
+[25.476s] [ 60%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_spot_msgs/srv/block_pose__type_support.cpp.o[0m
+[25.865s] [ 62%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_spot_msgs/srv/detail/spot_motion__type_support_c.cpp.o[0m
+[26.237s] [ 63%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_spot_msgs/action/detail/dds_fastrtps/peak_and_detect_object__type_support.cpp.o[0m
+[27.421s] [ 64%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_spot_msgs/action/stack__type_support.cpp.o[0m
+[27.722s] [ 65%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_spot_msgs/msg/detail/gait_input__type_support.cpp.o[0m
+[28.850s] [ 66%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_spot_msgs/srv/detail/block_pose__type_support_c.cpp.o[0m
+[30.080s] [ 67%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_spot_msgs/action/detail/dds_fastrtps/stack__type_support.cpp.o[0m
+[30.309s] [ 68%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_spot_msgs/srv/detail/block_pose__type_support.cpp.o[0m
+[30.339s] [ 70%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_spot_msgs/action/peak_and_detect_object__type_support.cpp.o[0m
+[30.608s] [ 71%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_spot_msgs/action/detail/stack__type_support_c.cpp.o[0m
+[32.137s] [ 72%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_spot_msgs/srv/detail/spot_height__type_support_c.cpp.o[0m
+[32.270s] [ 73%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_spot_msgs/action/detail/peak_and_detect_object__type_support.cpp.o[0m
+[32.427s] [ 74%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_spot_msgs/srv/spot_motion__type_support.cpp.o[0m
+[32.712s] [ 75%] [32m[1mLinking CXX shared library libwebots_spot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[32.918s] [ 75%] Built target webots_spot_msgs__rosidl_typesupport_fastrtps_cpp
+[33.398s] [ 77%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_spot_msgs/action/detail/peak_and_detect_object__type_support_c.cpp.o[0m
+[33.492s] [ 78%] [32m[1mLinking CXX shared library libwebots_spot_msgs__rosidl_typesupport_cpp.so[0m
+[33.608s] [ 78%] Built target webots_spot_msgs__rosidl_typesupport_cpp
+[34.141s] [ 79%] [32mBuilding CXX object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_spot_msgs/action/detail/stack__type_support.cpp.o[0m
+[34.617s] [ 80%] [32m[1mLinking CXX shared library libwebots_spot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[34.813s] [ 80%] Built target webots_spot_msgs__rosidl_typesupport_fastrtps_c
+[35.567s] [ 81%] [32m[1mLinking CXX shared library libwebots_spot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[35.760s] [ 81%] Built target webots_spot_msgs__rosidl_typesupport_introspection_cpp
+[35.796s] [ 81%] Built target webots_spot_msgs
+[35.840s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[40.566s] [ 82%] Built target webots_spot_msgs__py
+[40.599s] [ 83%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_spot_msgs/msg/_int32_s.c.o[0m
+[40.784s] [ 85%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_spot_msgs/action/_peak_and_detect_object_s.c.o[0m
+[41.034s] [ 86%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_spot_msgs/action/_stack_s.c.o[0m
+[41.289s] [ 87%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_spot_msgs/srv/_block_pose_s.c.o[0m
+[41.433s] [ 88%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_spot_msgs/srv/_spot_height_s.c.o[0m
+[41.574s] [ 89%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_spot_msgs/srv/_spot_motion_s.c.o[0m
+[41.737s] [ 90%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_spot_msgs/msg/_gait_input_s.c.o[0m
+[41.879s] [ 91%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_spot_msgs/msg/_legs_s.c.o[0m
+[42.011s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/webots_spot_msgs/libwebots_spot_msgs__rosidl_generator_py.so[0m
+[42.065s] [ 93%] Built target webots_spot_msgs__rosidl_generator_py
+[42.092s] [ 94%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/webots_spot_msgs/_webots_spot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[42.345s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/webots_spot_msgs/webots_spot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[42.403s] [ 95%] Built target webots_spot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[42.430s] [ 96%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/webots_spot_msgs/_webots_spot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[42.719s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/webots_spot_msgs/webots_spot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[42.768s] [ 97%] Built target webots_spot_msgs__rosidl_typesupport_c__pyext
+[42.793s] [ 98%] [32mBuilding C object CMakeFiles/webots_spot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/webots_spot_msgs/_webots_spot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[43.022s] [100%] [32m[1mLinking C shared library rosidl_generator_py/webots_spot_msgs/webots_spot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[43.075s] [100%] Built target webots_spot_msgs__rosidl_typesupport_introspection_c__pyext
+[43.095s] Invoked command in '/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_spot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg:/home/gisbert12843/ros2_ws/install/webots_ros2:/home/gisbert12843/ros2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/ros2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/ros2_ws/install/webots_ros2_tiago:/home/gisbert12843/ros2_ws/install/webots_ros2_tests:/home/gisbert12843/ros2_ws/install/webots_ros2_tesla:/home/gisbert12843/ros2_ws/install/webots_ros2_mavic:/home/gisbert12843/ros2_ws/install/webots_ros2_epuck:/home/gisbert12843/ros2_ws/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --build /home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_spot_msgs -- -j8 -l8
+[43.107s] Invoking command in '/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_spot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg:/home/gisbert12843/ros2_ws/install/webots_ros2:/home/gisbert12843/ros2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/ros2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/ros2_ws/install/webots_ros2_tiago:/home/gisbert12843/ros2_ws/install/webots_ros2_tests:/home/gisbert12843/ros2_ws/install/webots_ros2_tesla:/home/gisbert12843/ros2_ws/install/webots_ros2_mavic:/home/gisbert12843/ros2_ws/install/webots_ros2_epuck:/home/gisbert12843/ros2_ws/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --install /home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_spot_msgs
+[43.116s] -- Install configuration: ""
+[43.117s] -- Execute custom install script
+[43.117s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/ament_index/resource_index/rosidl_interfaces/webots_spot_msgs
+[43.128s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/peak_and_detect_object__functions.h
+[43.138s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/peak_and_detect_object__struct.h
+[43.150s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/peak_and_detect_object__type_support.h
+[43.161s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/stack__functions.h
+[43.171s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/stack__struct.h
+[43.181s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/stack__type_support.h
+[43.191s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/peak_and_detect_object.h
+[43.202s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/stack.h
+[43.215s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/gait_input__functions.h
+[43.226s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/gait_input__struct.h
+[43.236s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/gait_input__type_support.h
+[43.247s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/int32__functions.h
+[43.257s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/int32__struct.h
+[43.267s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/int32__type_support.h
+[43.277s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/legs__functions.h
+[43.288s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/legs__struct.h
+[43.298s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/legs__type_support.h
+[43.311s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/gait_input.h
+[43.322s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/int32.h
+[43.332s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/legs.h
+[43.342s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/rosidl_generator_c__visibility_control.h
+[43.352s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/block_pose.h
+[43.363s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/block_pose__functions.h
+[43.373s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/block_pose__struct.h
+[43.384s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/block_pose__type_support.h
+[43.394s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_height__functions.h
+[43.404s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_height__struct.h
+[43.414s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_height__type_support.h
+[43.424s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_motion__functions.h
+[43.434s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_motion__struct.h
+[43.444s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_motion__type_support.h
+[43.454s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/spot_height.h
+[43.464s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/spot_motion.h
+[43.474s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/environment/library_path.sh
+[43.485s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/environment/library_path.dsv
+[43.495s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/peak_and_detect_object__rosidl_typesupport_fastrtps_c.h
+[43.506s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/stack__rosidl_typesupport_fastrtps_c.h
+[43.516s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/gait_input__rosidl_typesupport_fastrtps_c.h
+[43.526s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/int32__rosidl_typesupport_fastrtps_c.h
+[43.536s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/legs__rosidl_typesupport_fastrtps_c.h
+[43.546s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[43.557s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/block_pose__rosidl_typesupport_fastrtps_c.h
+[43.567s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_height__rosidl_typesupport_fastrtps_c.h
+[43.577s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_motion__rosidl_typesupport_fastrtps_c.h
+[43.588s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/peak_and_detect_object__rosidl_typesupport_introspection_c.h
+[43.601s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/stack__rosidl_typesupport_introspection_c.h
+[43.611s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/gait_input__rosidl_typesupport_introspection_c.h
+[43.621s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/int32__rosidl_typesupport_introspection_c.h
+[43.631s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/legs__rosidl_typesupport_introspection_c.h
+[43.642s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[43.652s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/block_pose__rosidl_typesupport_introspection_c.h
+[43.662s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_height__rosidl_typesupport_introspection_c.h
+[43.673s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_motion__rosidl_typesupport_introspection_c.h
+[43.684s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/peak_and_detect_object__builder.hpp
+[43.694s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/peak_and_detect_object__struct.hpp
+[43.706s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/peak_and_detect_object__traits.hpp
+[43.716s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/peak_and_detect_object__type_support.hpp
+[43.726s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/stack__builder.hpp
+[43.736s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/stack__struct.hpp
+[43.746s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/stack__traits.hpp
+[43.757s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/stack__type_support.hpp
+[43.767s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/peak_and_detect_object.hpp
+[43.777s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/stack.hpp
+[43.787s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/gait_input__builder.hpp
+[43.797s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/gait_input__struct.hpp
+[43.807s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/gait_input__traits.hpp
+[43.818s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/gait_input__type_support.hpp
+[43.828s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/int32__builder.hpp
+[43.838s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/int32__struct.hpp
+[43.848s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/int32__traits.hpp
+[43.859s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/int32__type_support.hpp
+[43.868s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/legs__builder.hpp
+[43.879s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/legs__struct.hpp
+[43.889s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/legs__traits.hpp
+[43.900s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/legs__type_support.hpp
+[43.910s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/gait_input.hpp
+[43.920s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/int32.hpp
+[43.930s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/legs.hpp
+[43.941s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[43.951s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/block_pose.hpp
+[43.961s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/block_pose__builder.hpp
+[43.972s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/block_pose__struct.hpp
+[43.982s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/block_pose__traits.hpp
+[43.992s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/block_pose__type_support.hpp
+[44.001s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_height__builder.hpp
+[44.011s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_height__struct.hpp
+[44.022s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_height__traits.hpp
+[44.031s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_height__type_support.hpp
+[44.042s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_motion__builder.hpp
+[44.051s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_motion__struct.hpp
+[44.061s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_motion__traits.hpp
+[44.071s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_motion__type_support.hpp
+[44.080s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/spot_height.hpp
+[44.090s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/spot_motion.hpp
+[44.100s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/peak_and_detect_object__rosidl_typesupport_fastrtps_cpp.hpp
+[44.113s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/stack__rosidl_typesupport_fastrtps_cpp.hpp
+[44.123s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/gait_input__rosidl_typesupport_fastrtps_cpp.hpp
+[44.133s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/int32__rosidl_typesupport_fastrtps_cpp.hpp
+[44.143s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/legs__rosidl_typesupport_fastrtps_cpp.hpp
+[44.153s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[44.162s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/block_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[44.172s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_height__rosidl_typesupport_fastrtps_cpp.hpp
+[44.182s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_motion__rosidl_typesupport_fastrtps_cpp.hpp
+[44.192s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/peak_and_detect_object__rosidl_typesupport_introspection_cpp.hpp
+[44.203s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/action/detail/stack__rosidl_typesupport_introspection_cpp.hpp
+[44.212s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/gait_input__rosidl_typesupport_introspection_cpp.hpp
+[44.222s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/int32__rosidl_typesupport_introspection_cpp.hpp
+[44.231s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/msg/detail/legs__rosidl_typesupport_introspection_cpp.hpp
+[44.241s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/block_pose__rosidl_typesupport_introspection_cpp.hpp
+[44.251s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_height__rosidl_typesupport_introspection_cpp.hpp
+[44.261s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/include/webots_spot_msgs/webots_spot_msgs/srv/detail/spot_motion__rosidl_typesupport_introspection_cpp.hpp
+[44.271s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/environment/pythonpath.sh
+[44.280s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/environment/pythonpath.dsv
+[44.291s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[44.300s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[44.310s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[44.320s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[44.331s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/__init__.py
+[44.341s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/_webots_spot_msgs_s.ep.rosidl_typesupport_c.c
+[44.350s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/_webots_spot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[44.360s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/_webots_spot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[44.370s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/action/__init__.py
+[44.380s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/action/_peak_and_detect_object.py
+[44.390s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/action/_peak_and_detect_object_s.c
+[44.399s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/action/_stack.py
+[44.409s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/action/_stack_s.c
+[44.419s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/libwebots_spot_msgs__rosidl_generator_py.so
+[44.428s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/msg/__init__.py
+[44.438s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/msg/_gait_input.py
+[44.448s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/msg/_gait_input_s.c
+[44.457s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/msg/_int32.py
+[44.467s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/msg/_int32_s.c
+[44.477s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/msg/_legs.py
+[44.487s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/msg/_legs_s.c
+[44.497s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/srv/__init__.py
+[44.506s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/srv/_block_pose.py
+[44.516s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/srv/_block_pose_s.c
+[44.526s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/srv/_spot_height.py
+[44.535s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/srv/_spot_height_s.c
+[44.545s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/srv/_spot_motion.py
+[44.555s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/srv/_spot_motion_s.c
+[44.564s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/webots_spot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[44.574s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/webots_spot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[44.584s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/webots_spot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[44.594s] -- Up-to-date symlink: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/webots_spot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[44.595s] -- Up-to-date symlink: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/webots_spot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[44.595s] -- Up-to-date symlink: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/webots_spot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[44.595s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/msg/Int32.idl
+[44.606s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/msg/Legs.idl
+[44.615s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/msg/GaitInput.idl
+[44.625s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/srv/SpotMotion.idl
+[44.635s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/srv/SpotHeight.idl
+[44.644s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/srv/BlockPose.idl
+[44.654s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/action/Stack.idl
+[44.664s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/action/PeakAndDetectObject.idl
+[44.674s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/msg/Int32.msg
+[44.684s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/msg/Legs.msg
+[44.694s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/msg/GaitInput.msg
+[44.703s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/srv/SpotMotion.srv
+[44.713s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/srv/SpotMotion_Request.msg
+[44.723s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/srv/SpotMotion_Response.msg
+[44.732s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/srv/SpotHeight.srv
+[44.742s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/srv/SpotHeight_Request.msg
+[44.753s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/srv/SpotHeight_Response.msg
+[44.762s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/srv/BlockPose.srv
+[44.772s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/srv/BlockPose_Request.msg
+[44.783s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/srv/BlockPose_Response.msg
+[44.795s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/action/Stack.action
+[44.806s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/action/PeakAndDetectObject.action
+[44.816s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/ament_index/resource_index/package_run_dependencies/webots_spot_msgs
+[44.825s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/ament_index/resource_index/parent_prefix_path/webots_spot_msgs
+[44.836s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/environment/ament_prefix_path.sh
+[44.846s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/environment/ament_prefix_path.dsv
+[44.856s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/environment/path.sh
+[44.866s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/environment/path.dsv
+[44.876s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/local_setup.bash
+[44.888s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/local_setup.sh
+[44.898s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/local_setup.zsh
+[44.908s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/local_setup.dsv
+[44.918s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/package.dsv
+[44.929s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/ament_index/resource_index/packages/webots_spot_msgs
+[44.940s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/rosidl_cmake-extras.cmake
+[44.952s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.963s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.972s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[44.982s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[44.991s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[45.000s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[45.010s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/webots_spot_msgsConfig.cmake
+[45.019s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/webots_spot_msgsConfig-version.cmake
+[45.028s] -- Symlinking: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/package.xml
+[45.038s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_generator_c.so
+[45.039s] -- Set runtime path of "/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_generator_c.so" to ""
+[45.039s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_typesupport_fastrtps_c.so
+[45.040s] -- Set runtime path of "/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[45.040s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_typesupport_introspection_c.so
+[45.040s] -- Set runtime path of "/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[45.040s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_typesupport_c.so
+[45.041s] -- Set runtime path of "/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_typesupport_c.so" to ""
+[45.041s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[45.041s] -- Set runtime path of "/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[45.042s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_typesupport_introspection_cpp.so
+[45.042s] -- Set runtime path of "/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[45.042s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_typesupport_cpp.so
+[45.043s] -- Set runtime path of "/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_typesupport_cpp.so" to ""
+[45.146s] Listing '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs'...
+[45.146s] Compiling '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/__init__.py'...
+[45.146s] Listing '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/action'...
+[45.146s] Compiling '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/action/__init__.py'...
+[45.146s] Compiling '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/action/_peak_and_detect_object.py'...
+[45.146s] Compiling '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/action/_stack.py'...
+[45.146s] Listing '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/msg'...
+[45.146s] Compiling '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/msg/__init__.py'...
+[45.146s] Compiling '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/msg/_gait_input.py'...
+[45.146s] Compiling '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/msg/_int32.py'...
+[45.146s] Compiling '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/msg/_legs.py'...
+[45.146s] Listing '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/srv'...
+[45.146s] Compiling '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/srv/__init__.py'...
+[45.147s] Compiling '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/srv/_block_pose.py'...
+[45.147s] Compiling '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/srv/_spot_height.py'...
+[45.147s] Compiling '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages/webots_spot_msgs/srv/_spot_motion.py'...
+[45.151s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_generator_py.so
+[45.152s] -- Set runtime path of "/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib/libwebots_spot_msgs__rosidl_generator_py.so" to ""
+[45.152s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/export_webots_spot_msgs__rosidl_generator_cExport.cmake
+[45.152s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/export_webots_spot_msgs__rosidl_generator_cExport-noconfig.cmake
+[45.153s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/export_webots_spot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[45.153s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/export_webots_spot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[45.153s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/webots_spot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[45.153s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/webots_spot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[45.154s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/webots_spot_msgs__rosidl_typesupport_cExport.cmake
+[45.154s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/webots_spot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[45.154s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/export_webots_spot_msgs__rosidl_generator_cppExport.cmake
+[45.154s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/export_webots_spot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[45.154s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/export_webots_spot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[45.155s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/webots_spot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[45.155s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/webots_spot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[45.155s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/webots_spot_msgs__rosidl_typesupport_cppExport.cmake
+[45.155s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/webots_spot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[45.156s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/export_webots_spot_msgs__rosidl_generator_pyExport.cmake
+[45.156s] -- Installing: /home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/share/webots_spot_msgs/cmake/export_webots_spot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[45.159s] Invoked command in '/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_spot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg:/home/gisbert12843/ros2_ws/install/webots_ros2:/home/gisbert12843/ros2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/ros2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/ros2_ws/install/webots_ros2_tiago:/home/gisbert12843/ros2_ws/install/webots_ros2_tests:/home/gisbert12843/ros2_ws/install/webots_ros2_tesla:/home/gisbert12843/ros2_ws/install/webots_ros2_mavic:/home/gisbert12843/ros2_ws/install/webots_ros2_epuck:/home/gisbert12843/ros2_ws/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --install /home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_spot_msgs

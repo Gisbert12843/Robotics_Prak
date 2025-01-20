@@ -1,0 +1,4 @@
+[console_scripts]
+lidar = prak4_pkg.lidar:main
+push_ups = prak4_pkg.push_ups:main
+

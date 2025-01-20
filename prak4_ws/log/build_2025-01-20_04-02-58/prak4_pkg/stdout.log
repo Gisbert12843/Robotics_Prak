@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating prak4_pkg.egg-info
+writing prak4_pkg.egg-info/PKG-INFO
+writing dependency_links to prak4_pkg.egg-info/dependency_links.txt
+writing entry points to prak4_pkg.egg-info/entry_points.txt
+writing requirements to prak4_pkg.egg-info/requires.txt
+writing top-level names to prak4_pkg.egg-info/top_level.txt
+writing manifest file 'prak4_pkg.egg-info/SOURCES.txt'
+reading manifest file 'prak4_pkg.egg-info/SOURCES.txt'
+writing manifest file 'prak4_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4-pkg.egg-link (link to .)
+Installing lidar script to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/prak4_pkg
+Installing push_ups script to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/prak4_pkg
+
+Installed /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg
+running symlink_data
+creating /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/share/ament_index
+creating /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/share/ament_index/resource_index
+creating /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/resource/prak4_pkg -> /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/package.xml -> /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/share/prak4_pkg

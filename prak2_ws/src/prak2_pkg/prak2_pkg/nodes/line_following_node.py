@@ -81,11 +81,11 @@ class LineFollower(Node):
         return image, original
 
     def redmask_from_hsv(self, hsv_image):
-        lower_red1 = np.array([0, 50, 50])
-        upper_red1 = np.array([10, 255, 255])
+        lower_red1 = np.array([0, 100, 50])
+        upper_red1 = np.array([4, 255, 255])
         red_mask1 = cv2.inRange(hsv_image, lower_red1, upper_red1)
 
-        lower_red2 = np.array([150, 50, 50])
+        lower_red2 = np.array([150, 100, 50])
         upper_red2 = np.array([180, 255, 255])
         red_mask2 = cv2.inRange(hsv_image, lower_red2, upper_red2)
 

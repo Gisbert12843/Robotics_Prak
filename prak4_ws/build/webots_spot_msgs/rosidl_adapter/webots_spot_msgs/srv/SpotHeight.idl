@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from webots_spot_msgs/srv/SpotHeight.srv
+// generated code does not contain a copyright notice
+
+
+module webots_spot_msgs {
+  module srv {
+    struct SpotHeight_Request {
+      double height;
+    };
+    struct SpotHeight_Response {
+      string answer;
+    };
+  };
+};

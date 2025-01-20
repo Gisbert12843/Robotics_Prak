@@ -1,0 +1,30 @@
+[0.912s] Invoking command in '/home/gisbert12843/Robotics_Prak/prak2_ws/build/prak2_pkg': PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak2_ws/build/prak2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gisbert12843/Robotics_Prak/prak2_ws/build/prak2_pkg/build --no-deps symlink_data
+[1.200s] running develop
+[1.381s] running egg_info
+[1.382s] creating prak2_pkg.egg-info
+[1.382s] writing prak2_pkg.egg-info/PKG-INFO
+[1.382s] writing dependency_links to prak2_pkg.egg-info/dependency_links.txt
+[1.382s] writing entry points to prak2_pkg.egg-info/entry_points.txt
+[1.382s] writing requirements to prak2_pkg.egg-info/requires.txt
+[1.382s] writing top-level names to prak2_pkg.egg-info/top_level.txt
+[1.382s] writing manifest file 'prak2_pkg.egg-info/SOURCES.txt'
+[1.384s] reading manifest file 'prak2_pkg.egg-info/SOURCES.txt'
+[1.385s] writing manifest file 'prak2_pkg.egg-info/SOURCES.txt'
+[1.386s] running build_ext
+[1.386s] Creating /home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/lib/python3.10/site-packages/prak2-pkg.egg-link (link to .)
+[1.387s] Installing aruco_marker_detection_node script to /home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/lib/prak2_pkg
+[1.387s] Installing line_following_node script to /home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/lib/prak2_pkg
+[1.387s] Installing speed_controller_node script to /home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/lib/prak2_pkg
+[1.388s] 
+[1.388s] Installed /home/gisbert12843/Robotics_Prak/prak2_ws/build/prak2_pkg
+[1.388s] running symlink_data
+[1.388s] creating /home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/share/ament_index
+[1.388s] creating /home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/share/ament_index/resource_index
+[1.388s] creating /home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/share/ament_index/resource_index/packages
+[1.389s] symbolically linking /home/gisbert12843/Robotics_Prak/prak2_ws/build/prak2_pkg/resource/prak2_pkg -> /home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/share/ament_index/resource_index/packages
+[1.389s] symbolically linking /home/gisbert12843/Robotics_Prak/prak2_ws/build/prak2_pkg/package.xml -> /home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/share/prak2_pkg
+[1.389s] creating /home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/share/prak2_pkg/launch
+[1.389s] symbolically linking /home/gisbert12843/Robotics_Prak/prak2_ws/build/prak2_pkg/launch/launch_detection.py -> /home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/share/prak2_pkg/launch
+[1.389s] symbolically linking /home/gisbert12843/Robotics_Prak/prak2_ws/build/prak2_pkg/launch/launch_full.py -> /home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/share/prak2_pkg/launch
+[1.389s] symbolically linking /home/gisbert12843/Robotics_Prak/prak2_ws/build/prak2_pkg/launch/launch_line_detection.py -> /home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/share/prak2_pkg/launch
+[1.415s] Invoked command in '/home/gisbert12843/Robotics_Prak/prak2_ws/build/prak2_pkg' returned '0': PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak2_ws/build/prak2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gisbert12843/Robotics_Prak/prak2_ws/build/prak2_pkg/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+/home/gisbert12843/Robotics_Prak/prak3_ws/build/webots_spot_msgs/ament_cmake_environment_hooks/local_setup.zsh

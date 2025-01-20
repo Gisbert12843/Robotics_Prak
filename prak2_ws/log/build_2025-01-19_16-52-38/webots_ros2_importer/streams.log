@@ -1,0 +1,25 @@
+[0.965s] Invoking command in '/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer': PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer/build --no-deps symlink_data
+[1.268s] running develop
+[1.460s] running egg_info
+[1.460s] creating webots_ros2_importer.egg-info
+[1.460s] writing webots_ros2_importer.egg-info/PKG-INFO
+[1.461s] writing dependency_links to webots_ros2_importer.egg-info/dependency_links.txt
+[1.461s] writing entry points to webots_ros2_importer.egg-info/entry_points.txt
+[1.461s] writing requirements to webots_ros2_importer.egg-info/requires.txt
+[1.461s] writing top-level names to webots_ros2_importer.egg-info/top_level.txt
+[1.461s] writing manifest file 'webots_ros2_importer.egg-info/SOURCES.txt'
+[1.463s] reading manifest file 'webots_ros2_importer.egg-info/SOURCES.txt'
+[1.463s] writing manifest file 'webots_ros2_importer.egg-info/SOURCES.txt'
+[1.465s] running build_ext
+[1.465s] Creating /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots-ros2-importer.egg-link (link to .)
+[1.466s] Installing urdf2proto script to /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/lib/webots_ros2_importer
+[1.466s] Installing xacro2proto script to /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/lib/webots_ros2_importer
+[1.466s] 
+[1.467s] Installed /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer
+[1.467s] running symlink_data
+[1.467s] creating /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/share/ament_index
+[1.467s] creating /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/share/ament_index/resource_index
+[1.467s] creating /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/share/ament_index/resource_index/packages
+[1.467s] symbolically linking /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer/resource/webots_ros2_importer -> /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/share/ament_index/resource_index/packages
+[1.467s] symbolically linking /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer/package.xml -> /home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/share/webots_ros2_importer
+[1.494s] Invoked command in '/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer' returned '0': PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer/build --no-deps symlink_data

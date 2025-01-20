@@ -1,0 +1,23 @@
+[1.026s] Invoking command in '/home/gisbert12843/Robotics_Prak/prak4_ws/src/prak4_pkg': PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/prak4_pkg build --build-base /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build install --record /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/install.log --single-version-externally-managed install_data
+[1.499s] running egg_info
+[1.502s] writing ../../build/prak4_pkg/prak4_pkg.egg-info/PKG-INFO
+[1.503s] writing dependency_links to ../../build/prak4_pkg/prak4_pkg.egg-info/dependency_links.txt
+[1.503s] writing entry points to ../../build/prak4_pkg/prak4_pkg.egg-info/entry_points.txt
+[1.503s] writing requirements to ../../build/prak4_pkg/prak4_pkg.egg-info/requires.txt
+[1.503s] writing top-level names to ../../build/prak4_pkg/prak4_pkg.egg-info/top_level.txt
+[1.506s] reading manifest file '../../build/prak4_pkg/prak4_pkg.egg-info/SOURCES.txt'
+[1.508s] writing manifest file '../../build/prak4_pkg/prak4_pkg.egg-info/SOURCES.txt'
+[1.508s] running build
+[1.508s] running build_py
+[1.508s] running install
+[1.509s] running install_lib
+[1.513s] running install_data
+[1.514s] copying launch/launch_nav2.py -> /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/share/prak4_pkg/launch
+[1.514s] running install_egg_info
+[1.519s] removing '/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.519s] Copying ../../build/prak4_pkg/prak4_pkg.egg-info to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg-0.0.0-py3.10.egg-info
+[1.521s] running install_scripts
+[1.561s] Installing lidar script to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/prak4_pkg
+[1.562s] Installing push_ups script to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/prak4_pkg
+[1.562s] writing list of installed files to '/home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/install.log'
+[1.601s] Invoked command in '/home/gisbert12843/Robotics_Prak/prak4_ws/src/prak4_pkg' returned '0': PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/prak4_pkg build --build-base /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build install --record /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/install.log --single-version-externally-managed install_data

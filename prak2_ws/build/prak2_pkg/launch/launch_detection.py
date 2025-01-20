@@ -1,1 +1,1 @@
-/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/prak2_pkg/launch/launch_detection.py
+/home/gisbert12843/Robotics_Prak/prak2_ws/src/prak2_pkg/launch/launch_detection.py

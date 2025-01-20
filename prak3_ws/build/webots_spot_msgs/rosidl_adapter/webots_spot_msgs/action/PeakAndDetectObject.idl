@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from webots_spot_msgs/action/PeakAndDetectObject.action
+// generated code does not contain a copyright notice
+
+
+module webots_spot_msgs {
+  module action {
+    struct PeakAndDetectObject_Goal {
+      string image;
+    };
+    struct PeakAndDetectObject_Result {
+      string object;
+    };
+    struct PeakAndDetectObject_Feedback {
+      string status;
+    };
+  };
+};

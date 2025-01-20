@@ -1,0 +1,24 @@
+[3.654s] Invoking command in '/home/gisbert12843/Robotics_Prak/prak3_ws/build/prak3_pkg': PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak3_ws/build/prak3_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/Robotics_Prak/prak3_ws/install/prak3_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gisbert12843/Robotics_Prak/prak3_ws/build/prak3_pkg/build --no-deps symlink_data
+[4.876s] running develop
+[5.705s] running egg_info
+[5.706s] creating prak3_pkg.egg-info
+[5.706s] writing prak3_pkg.egg-info/PKG-INFO
+[5.707s] writing dependency_links to prak3_pkg.egg-info/dependency_links.txt
+[5.708s] writing entry points to prak3_pkg.egg-info/entry_points.txt
+[5.708s] writing requirements to prak3_pkg.egg-info/requires.txt
+[5.708s] writing top-level names to prak3_pkg.egg-info/top_level.txt
+[5.709s] writing manifest file 'prak3_pkg.egg-info/SOURCES.txt'
+[5.712s] reading manifest file 'prak3_pkg.egg-info/SOURCES.txt'
+[5.714s] writing manifest file 'prak3_pkg.egg-info/SOURCES.txt'
+[5.722s] running build_ext
+[5.723s] Creating /home/gisbert12843/Robotics_Prak/prak3_ws/install/prak3_pkg/lib/python3.10/site-packages/prak3-pkg.egg-link (link to .)
+[5.727s] Installing service_node script to /home/gisbert12843/Robotics_Prak/prak3_ws/install/prak3_pkg/lib/prak3_pkg
+[5.728s] 
+[5.728s] Installed /home/gisbert12843/Robotics_Prak/prak3_ws/build/prak3_pkg
+[5.729s] running symlink_data
+[5.729s] creating /home/gisbert12843/Robotics_Prak/prak3_ws/install/prak3_pkg/share/ament_index
+[5.729s] creating /home/gisbert12843/Robotics_Prak/prak3_ws/install/prak3_pkg/share/ament_index/resource_index
+[5.729s] creating /home/gisbert12843/Robotics_Prak/prak3_ws/install/prak3_pkg/share/ament_index/resource_index/packages
+[5.730s] symbolically linking /home/gisbert12843/Robotics_Prak/prak3_ws/build/prak3_pkg/resource/prak3_pkg -> /home/gisbert12843/Robotics_Prak/prak3_ws/install/prak3_pkg/share/ament_index/resource_index/packages
+[5.730s] symbolically linking /home/gisbert12843/Robotics_Prak/prak3_ws/build/prak3_pkg/package.xml -> /home/gisbert12843/Robotics_Prak/prak3_ws/install/prak3_pkg/share/prak3_pkg
+[5.825s] Invoked command in '/home/gisbert12843/Robotics_Prak/prak3_ws/build/prak3_pkg' returned '0': PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak3_ws/build/prak3_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/Robotics_Prak/prak3_ws/install/prak3_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gisbert12843/Robotics_Prak/prak3_ws/build/prak3_pkg/build --no-deps symlink_data

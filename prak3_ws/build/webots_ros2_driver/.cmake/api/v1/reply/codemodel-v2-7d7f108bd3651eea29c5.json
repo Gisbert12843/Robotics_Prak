@@ -1,0 +1,178 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-77ad75a71450e6834368.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "webots_ros2_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_controller_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_controller_egg-c1da984726d3e6c187bf.json",
+					"name" : "ament_cmake_python_build_controller_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_vehicle_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_vehicle_egg-d84823417c2d8657cefb.json",
+					"name" : "ament_cmake_python_build_vehicle_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_webots_ros2_driver_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_webots_ros2_driver_egg-26616d876e65a087d0c6.json",
+					"name" : "ament_cmake_python_build_webots_ros2_driver_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_controller-144dc72869ecf174ad65.json",
+					"name" : "ament_cmake_python_symlink_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_vehicle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_vehicle-123a75274fa280cdf54e.json",
+					"name" : "ament_cmake_python_symlink_vehicle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_webots_ros2_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_webots_ros2_driver-a6a1593c5b3f8669f268.json",
+					"name" : "ament_cmake_python_symlink_webots_ros2_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "compile-generic-window::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-compile-generic-window-bf9b8f2d9e6ba19e524a.json",
+					"name" : "compile-generic-window",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "compile-lib-controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-compile-lib-controller-7012a78412c67b77e57f.json",
+					"name" : "compile-lib-controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "compile-lib-vehicle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-compile-lib-vehicle-ddae2ceeb0d14d643611.json",
+					"name" : "compile-lib-vehicle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-driver-53589b9b9141976d7f11.json",
+					"name" : "driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-964a2797464d89e395bc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_driver_imu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_driver_imu-9ab6fe34ee852865975e.json",
+					"name" : "webots_ros2_driver_imu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_driver_rgbd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_driver_rgbd-39094ccc2600d72151e5.json",
+					"name" : "webots_ros2_driver_rgbd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_driver_uninstall-591935c9e0821af21bd4.json",
+					"name" : "webots_ros2_driver_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gisbert12843/Robotics_Prak/prak3_ws/build/webots_ros2_driver",
+		"source" : "/home/gisbert12843/Robotics_Prak/prak3_ws/src/webots_ros2/webots_ros2_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

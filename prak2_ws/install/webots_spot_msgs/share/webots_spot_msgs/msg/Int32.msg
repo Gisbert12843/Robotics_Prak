@@ -1,1 +1,1 @@
-/home/gisbert12843/Projects/Robotics_Prak/prak2_ws/src/webots_spot_msgs/msg/Int32.msg
+/home/gisbert12843/Robotics_Prak/prak2_ws/src/webots_spot_msgs/msg/Int32.msg

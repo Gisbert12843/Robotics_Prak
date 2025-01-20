@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from webots_spot_msgs/msg/Int32.msg
+// generated code does not contain a copyright notice
+
+
+module webots_spot_msgs {
+  module msg {
+    struct Int32 {
+      int32 data;
+    };
+  };
+};

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "webots_spot_msgs__py",
+		"source" : "/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_spot_msgs/webots_spot_msgs__py"
+	}
+}

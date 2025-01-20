@@ -1,0 +1,1 @@
+/home/gisbert12843/Robotics_Prak/prak3_ws/src/webots_spot_msgs/msg/Legs.msg

@@ -1,0 +1,3 @@
+[console_scripts]
+service_node = prak3_pkg.service_node:main
+

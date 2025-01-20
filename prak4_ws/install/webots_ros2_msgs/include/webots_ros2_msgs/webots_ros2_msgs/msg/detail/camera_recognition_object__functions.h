@@ -1,0 +1,1 @@
+/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_ros2_msgs/rosidl_generator_c/webots_ros2_msgs/msg/detail/camera_recognition_object__functions.h

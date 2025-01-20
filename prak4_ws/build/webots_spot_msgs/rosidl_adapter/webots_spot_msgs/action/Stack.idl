@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from webots_spot_msgs/action/Stack.action
+// generated code does not contain a copyright notice
+
+
+module webots_spot_msgs {
+  module action {
+    struct Stack_Goal {
+      string block;
+
+      string location;
+    };
+    struct Stack_Result {
+      boolean stacked;
+    };
+    struct Stack_Feedback {
+      boolean stacking;
+    };
+  };
+};
