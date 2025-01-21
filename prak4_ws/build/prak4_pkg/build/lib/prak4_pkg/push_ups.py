@@ -16,7 +16,7 @@ class SubscriberClientNodeAsync(Node):
             self.get_logger().warn("waiting for stand service")
 
         while not self.sit_cli.wait_for_service(1):
-            self.get_logger().warn("waiting for sit service")
+            self.get_logger().warn("waiting for lie_down service")
 
         self.req = SpotMotion.Request()
         self.is_sitting = False

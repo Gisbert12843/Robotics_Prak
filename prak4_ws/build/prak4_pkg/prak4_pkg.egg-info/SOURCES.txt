@@ -10,6 +10,14 @@ setup.py
 ../../build/prak4_pkg/prak4_pkg.egg-info/zip-safe
 launch/launch_nav2.py
 prak4_pkg/__init__.py
+prak4_pkg/goal_situps.py
 prak4_pkg/lidar.py
 prak4_pkg/push_ups.py
+prak4_pkg.egg-info/PKG-INFO
+prak4_pkg.egg-info/SOURCES.txt
+prak4_pkg.egg-info/dependency_links.txt
+prak4_pkg.egg-info/entry_points.txt
+prak4_pkg.egg-info/requires.txt
+prak4_pkg.egg-info/top_level.txt
+prak4_pkg.egg-info/zip-safe
 resource/prak4_pkg

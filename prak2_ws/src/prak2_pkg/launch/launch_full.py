@@ -11,6 +11,6 @@ def generate_launch_description():
             ExecuteProcess(
                 cmd=["ros2", "launch", "webots_spot", "spot_launch.py"], output="screen"
             ),
-            # ExecuteProcess(cmd=["rviz2"], output="screen"),
+            ExecuteProcess(cmd=["rviz2"], output="screen"),
         ]
     )

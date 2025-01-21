@@ -1,4 +1,5 @@
 [console_scripts]
+goal_situps = prak4_pkg.goal_situps:main
 lidar = prak4_pkg.lidar:main
 push_ups = prak4_pkg.push_ups:main
 

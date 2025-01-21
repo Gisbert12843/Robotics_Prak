@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/prak4_pkg/prak4_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/prak4_pkg/prak4_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/prak4_pkg/prak4_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/prak4_pkg/prak4_pkg.egg-info/requires.txt
+writing top-level names to ../../build/prak4_pkg/prak4_pkg.egg-info/top_level.txt
+reading manifest file '../../build/prak4_pkg/prak4_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/prak4_pkg/prak4_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying prak4_pkg/goal_situps.py -> /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build/lib/prak4_pkg
+copying prak4_pkg/push_ups.py -> /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build/lib/prak4_pkg
+running install
+running install_lib
+copying /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build/lib/prak4_pkg/goal_situps.py -> /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg
+copying /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build/lib/prak4_pkg/push_ups.py -> /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg
+byte-compiling /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg/goal_situps.py to goal_situps.cpython-310.pyc
+byte-compiling /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg/push_ups.py to push_ups.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/prak4_pkg/prak4_pkg.egg-info to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing goal_situps script to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/prak4_pkg
+Installing lidar script to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/prak4_pkg
+Installing push_ups script to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/prak4_pkg
+writing list of installed files to '/home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/install.log'

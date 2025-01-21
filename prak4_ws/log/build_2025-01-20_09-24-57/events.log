@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.003048] (-) JobUnselected: {'identifier': 'webots_ros2'}
+[0.004581] (-) JobUnselected: {'identifier': 'webots_ros2_control'}
+[0.004744] (-) JobUnselected: {'identifier': 'webots_ros2_driver'}
+[0.004851] (-) JobUnselected: {'identifier': 'webots_ros2_epuck'}
+[0.004959] (-) JobUnselected: {'identifier': 'webots_ros2_importer'}
+[0.005073] (-) JobUnselected: {'identifier': 'webots_ros2_mavic'}
+[0.005179] (-) JobUnselected: {'identifier': 'webots_ros2_msgs'}
+[0.005273] (-) JobUnselected: {'identifier': 'webots_ros2_tesla'}
+[0.005386] (-) JobUnselected: {'identifier': 'webots_ros2_tests'}
+[0.005509] (-) JobUnselected: {'identifier': 'webots_ros2_tiago'}
+[0.005615] (-) JobUnselected: {'identifier': 'webots_ros2_turtlebot'}
+[0.008890] (-) JobUnselected: {'identifier': 'webots_ros2_universal_robot'}
+[0.009086] (-) JobUnselected: {'identifier': 'webots_spot'}
+[0.009207] (-) JobUnselected: {'identifier': 'webots_spot_msgs'}
+[0.009311] (-) JobUnselected: {'identifier': 'webots_spot_teleop'}
+[0.009444] (prak4_pkg) JobQueued: {'identifier': 'prak4_pkg', 'dependencies': OrderedDict()}
+[0.009593] (prak4_pkg) JobStarted: {'identifier': 'prak4_pkg'}
+[0.098598] (-) TimerEvent: {}
+[0.199228] (-) TimerEvent: {}
+[0.300033] (-) TimerEvent: {}
+[0.401137] (-) TimerEvent: {}
+[0.502232] (-) TimerEvent: {}
+[0.602961] (-) TimerEvent: {}
+[0.706561] (-) TimerEvent: {}
+[0.807249] (-) TimerEvent: {}
+[0.908075] (-) TimerEvent: {}
+[1.010014] (-) TimerEvent: {}
+[1.110968] (-) TimerEvent: {}
+[1.212131] (-) TimerEvent: {}
+[1.313426] (-) TimerEvent: {}
+[1.415063] (-) TimerEvent: {}
+[1.516153] (-) TimerEvent: {}
+[1.618548] (-) TimerEvent: {}
+[1.719656] (-) TimerEvent: {}
+[1.820587] (-) TimerEvent: {}
+[1.923280] (-) TimerEvent: {}
+[2.024758] (-) TimerEvent: {}
+[2.126943] (-) TimerEvent: {}
+[2.228946] (-) TimerEvent: {}
+[2.330037] (-) TimerEvent: {}
+[2.431172] (-) TimerEvent: {}
+[2.533113] (-) TimerEvent: {}
+[2.634611] (-) TimerEvent: {}
+[2.736307] (-) TimerEvent: {}
+[2.837229] (-) TimerEvent: {}
+[2.940259] (-) TimerEvent: {}
+[3.042241] (-) TimerEvent: {}
+[3.145046] (-) TimerEvent: {}
+[3.247357] (-) TimerEvent: {}
+[3.349602] (-) TimerEvent: {}
+[3.452289] (-) TimerEvent: {}
+[3.553497] (-) TimerEvent: {}
+[3.655817] (-) TimerEvent: {}
+[3.756643] (-) TimerEvent: {}
+[3.861194] (-) TimerEvent: {}
+[3.962048] (-) TimerEvent: {}
+[4.063521] (-) TimerEvent: {}
+[4.167171] (-) TimerEvent: {}
+[4.269575] (-) TimerEvent: {}
+[4.373325] (-) TimerEvent: {}
+[4.474892] (-) TimerEvent: {}
+[4.576331] (-) TimerEvent: {}
+[4.678467] (-) TimerEvent: {}
+[4.779894] (-) TimerEvent: {}
+[4.880682] (-) TimerEvent: {}
+[4.982917] (-) TimerEvent: {}
+[5.004020] (prak4_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/prak4_pkg', 'build', '--build-base', '/home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build', 'install', '--record', '/home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/gisbert12843/Robotics_Prak/prak4_ws/src/prak4_pkg', 'env': {'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'TABSIZE': '2', 'LANGUAGE': '', 'USER': 'gisbert12843', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1317', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '211203', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/lib:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_control/lib:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_driver/lib:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_msgs/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_control/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/lib:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs/lib:/home/gisbert12843/ros2_ws/install/webots_ros2_control/lib:/home/gisbert12843/ros2_ws/install/webots_ros2_driver/lib:/home/gisbert12843/ros2_ws/install/webots_ros2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/gisbert12843', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': '8146130ce7fb45418e27d51c6a01e7e3', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/gisbert12843/.gtkrc:/home/gisbert12843/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'de_DE.UTF-8', 'KONSOLE_DBUS_SESSION': '/Sessions/8', 'SYSTEMD_EXEC_PID': '1167', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/gisbert12843/Robotics_Prak/prak4_ws/install:/home/gisbert12843/Robotics_Prak/prak2_ws/install:/home/gisbert12843/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'gisbert12843', 'WINDOWID': '73400327', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/gisbert12843/.gtkrc-2.0:/home/gisbert12843/.config/gtkrc-2.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/gisberts-laptitop:@/tmp/.ICE-unix/1472,unix/gisberts-laptitop:/tmp/.ICE-unix/1472', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session2', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/home/gisbert12843/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXsPSWzd/agent.1185', 'AMENT_PREFIX_PATH': '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_control:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_driver:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_msgs:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_control:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg:/home/gisbert12843/ros2_ws/install/webots_ros2:/home/gisbert12843/ros2_ws/install/webots_ros2_universal_robot:/home/gisbert12843/ros2_ws/install/webots_ros2_turtlebot:/home/gisbert12843/ros2_ws/install/webots_ros2_tiago:/home/gisbert12843/ros2_ws/install/webots_ros2_tests:/home/gisbert12843/ros2_ws/install/webots_ros2_tesla:/home/gisbert12843/ros2_ws/install/webots_ros2_mavic:/home/gisbert12843/ros2_ws/install/webots_ros2_epuck:/home/gisbert12843/ros2_ws/install/webots_ros2_control:/home/gisbert12843/ros2_ws/install/webots_ros2_driver:/home/gisbert12843/ros2_ws/install/webots_ros2_msgs:/home/gisbert12843/ros2_ws/install/webots_ros2_importer:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.90', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'XDG_VTNR': '1', 'PWD': '/home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg', 'XDG_CONFIG_DIRS': '/home/gisbert12843/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_teleop/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages:/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_spot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_ros2:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_universal_robot/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tiago/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tests/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_tesla/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_mavic/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/gisbert12843/Robotics_Prak/prak4_ws/build/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_importer/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg:/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot_teleop:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_teleop/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs/local/lib/python3.10/dist-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_spot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_universal_robot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_universal_robot/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_turtlebot:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_tiago:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tiago/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_tests:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tests/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_tesla:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_tesla/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_mavic:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_mavic/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_epuck:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/webots_ros2_importer:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:/home/gisbert12843/Robotics_Prak/prak2_ws/build/prak2_pkg:/home/gisbert12843/Robotics_Prak/prak2_ws/install/prak2_pkg/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2:/home/gisbert12843/ros2_ws/install/webots_ros2/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_universal_robot:/home/gisbert12843/ros2_ws/install/webots_ros2_universal_robot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_turtlebot:/home/gisbert12843/ros2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tiago:/home/gisbert12843/ros2_ws/install/webots_ros2_tiago/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tests:/home/gisbert12843/ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_tesla:/home/gisbert12843/ros2_ws/install/webots_ros2_tesla/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_mavic:/home/gisbert12843/ros2_ws/install/webots_ros2_mavic/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_epuck:/home/gisbert12843/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/gisbert12843/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/gisbert12843/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/gisbert12843/ros2_ws/build/webots_ros2_importer:/home/gisbert12843/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_spot_msgs:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_control:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_driver:/home/gisbert12843/Robotics_Prak/prak4_ws/install/webots_ros2_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_spot_msgs:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_control:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_driver:/home/gisbert12843/Robotics_Prak/prak2_ws/install/webots_ros2_msgs:/home/gisbert12843/ros2_ws/install/webots_ros2_control:/home/gisbert12843/ros2_ws/install/webots_ros2_driver:/home/gisbert12843/ros2_ws/install/webots_ros2_msgs'}, 'shell': False}
+[5.083938] (-) TimerEvent: {}
+[5.185333] (-) TimerEvent: {}
+[5.286127] (-) TimerEvent: {}
+[5.386964] (-) TimerEvent: {}
+[5.489576] (-) TimerEvent: {}
+[5.592893] (-) TimerEvent: {}
+[5.697137] (-) TimerEvent: {}
+[5.798851] (-) TimerEvent: {}
+[5.899891] (-) TimerEvent: {}
+[6.000783] (-) TimerEvent: {}
+[6.103397] (-) TimerEvent: {}
+[6.206860] (-) TimerEvent: {}
+[6.308540] (-) TimerEvent: {}
+[6.409983] (-) TimerEvent: {}
+[6.511145] (-) TimerEvent: {}
+[6.611841] (-) TimerEvent: {}
+[6.712581] (-) TimerEvent: {}
+[6.813694] (-) TimerEvent: {}
+[6.914484] (-) TimerEvent: {}
+[7.016695] (-) TimerEvent: {}
+[7.117510] (-) TimerEvent: {}
+[7.123123] (prak4_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[7.131817] (prak4_pkg) StdoutLine: {'line': b'writing ../../build/prak4_pkg/prak4_pkg.egg-info/PKG-INFO\n'}
+[7.133247] (prak4_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/prak4_pkg/prak4_pkg.egg-info/dependency_links.txt\n'}
+[7.134247] (prak4_pkg) StdoutLine: {'line': b'writing entry points to ../../build/prak4_pkg/prak4_pkg.egg-info/entry_points.txt\n'}
+[7.135257] (prak4_pkg) StdoutLine: {'line': b'writing requirements to ../../build/prak4_pkg/prak4_pkg.egg-info/requires.txt\n'}
+[7.136456] (prak4_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/prak4_pkg/prak4_pkg.egg-info/top_level.txt\n'}
+[7.145239] (prak4_pkg) StdoutLine: {'line': b"reading manifest file '../../build/prak4_pkg/prak4_pkg.egg-info/SOURCES.txt'\n"}
+[7.152896] (prak4_pkg) StdoutLine: {'line': b"writing manifest file '../../build/prak4_pkg/prak4_pkg.egg-info/SOURCES.txt'\n"}
+[7.156106] (prak4_pkg) StdoutLine: {'line': b'running build\n'}
+[7.158076] (prak4_pkg) StdoutLine: {'line': b'running build_py\n'}
+[7.158652] (prak4_pkg) StdoutLine: {'line': b'copying prak4_pkg/goal_situps.py -> /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build/lib/prak4_pkg\n'}
+[7.159177] (prak4_pkg) StdoutLine: {'line': b'copying prak4_pkg/push_ups.py -> /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build/lib/prak4_pkg\n'}
+[7.159677] (prak4_pkg) StdoutLine: {'line': b'running install\n'}
+[7.160086] (prak4_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[7.160812] (prak4_pkg) StdoutLine: {'line': b'copying /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build/lib/prak4_pkg/goal_situps.py -> /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg\n'}
+[7.161668] (prak4_pkg) StdoutLine: {'line': b'copying /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build/lib/prak4_pkg/push_ups.py -> /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg\n'}
+[7.168584] (prak4_pkg) StdoutLine: {'line': b'byte-compiling /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg/goal_situps.py to goal_situps.cpython-310.pyc\n'}
+[7.171369] (prak4_pkg) StdoutLine: {'line': b'byte-compiling /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg/push_ups.py to push_ups.cpython-310.pyc\n'}
+[7.174378] (prak4_pkg) StdoutLine: {'line': b'running install_data\n'}
+[7.175224] (prak4_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.188099] (prak4_pkg) StdoutLine: {'line': b"removing '/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.191468] (prak4_pkg) StdoutLine: {'line': b'Copying ../../build/prak4_pkg/prak4_pkg.egg-info to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg-0.0.0-py3.10.egg-info\n'}
+[7.193934] (prak4_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[7.217670] (-) TimerEvent: {}
+[7.318462] (-) TimerEvent: {}
+[7.346973] (prak4_pkg) StdoutLine: {'line': b'Installing goal_situps script to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/prak4_pkg\n'}
+[7.347921] (prak4_pkg) StdoutLine: {'line': b'Installing lidar script to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/prak4_pkg\n'}
+[7.348560] (prak4_pkg) StdoutLine: {'line': b'Installing push_ups script to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/prak4_pkg\n'}
+[7.350263] (prak4_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/install.log'\n"}
+[7.423594] (-) TimerEvent: {}
+[7.451699] (prak4_pkg) CommandEnded: {'returncode': 0}
+[7.526535] (-) TimerEvent: {}
+[7.529553] (prak4_pkg) JobEnded: {'identifier': 'prak4_pkg', 'rc': 0}
+[7.533552] (-) EventReactorShutdown: {}

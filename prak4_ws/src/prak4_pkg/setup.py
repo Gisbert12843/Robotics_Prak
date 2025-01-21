@@ -28,6 +28,7 @@ setup(
         "console_scripts": [
             "push_ups = prak4_pkg.push_ups:main",
             "lidar = prak4_pkg.lidar:main",
+            "goal_situps = prak4_pkg.goal_situps:main",
         ],
     },
 )

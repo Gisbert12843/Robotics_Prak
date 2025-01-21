@@ -1,0 +1,29 @@
+[5.004s] Invoking command in '/home/gisbert12843/Robotics_Prak/prak4_ws/src/prak4_pkg': PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/prak4_pkg build --build-base /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build install --record /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/install.log --single-version-externally-managed install_data
+[7.116s] running egg_info
+[7.123s] writing ../../build/prak4_pkg/prak4_pkg.egg-info/PKG-INFO
+[7.124s] writing dependency_links to ../../build/prak4_pkg/prak4_pkg.egg-info/dependency_links.txt
+[7.125s] writing entry points to ../../build/prak4_pkg/prak4_pkg.egg-info/entry_points.txt
+[7.126s] writing requirements to ../../build/prak4_pkg/prak4_pkg.egg-info/requires.txt
+[7.127s] writing top-level names to ../../build/prak4_pkg/prak4_pkg.egg-info/top_level.txt
+[7.136s] reading manifest file '../../build/prak4_pkg/prak4_pkg.egg-info/SOURCES.txt'
+[7.144s] writing manifest file '../../build/prak4_pkg/prak4_pkg.egg-info/SOURCES.txt'
+[7.148s] running build
+[7.149s] running build_py
+[7.149s] copying prak4_pkg/goal_situps.py -> /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build/lib/prak4_pkg
+[7.150s] copying prak4_pkg/push_ups.py -> /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build/lib/prak4_pkg
+[7.150s] running install
+[7.151s] running install_lib
+[7.152s] copying /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build/lib/prak4_pkg/goal_situps.py -> /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg
+[7.152s] copying /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build/lib/prak4_pkg/push_ups.py -> /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg
+[7.159s] byte-compiling /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg/goal_situps.py to goal_situps.cpython-310.pyc
+[7.162s] byte-compiling /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg/push_ups.py to push_ups.cpython-310.pyc
+[7.165s] running install_data
+[7.166s] running install_egg_info
+[7.180s] removing '/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[7.184s] Copying ../../build/prak4_pkg/prak4_pkg.egg-info to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages/prak4_pkg-0.0.0-py3.10.egg-info
+[7.185s] running install_scripts
+[7.338s] Installing goal_situps script to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/prak4_pkg
+[7.339s] Installing lidar script to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/prak4_pkg
+[7.340s] Installing push_ups script to /home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/prak4_pkg
+[7.341s] writing list of installed files to '/home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/install.log'
+[7.449s] Invoked command in '/home/gisbert12843/Robotics_Prak/prak4_ws/src/prak4_pkg' returned '0': PYTHONPATH=/home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gisbert12843/Robotics_Prak/prak4_ws/install/prak4_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/prak4_pkg build --build-base /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/build install --record /home/gisbert12843/Robotics_Prak/prak4_ws/build/prak4_pkg/install.log --single-version-externally-managed install_data

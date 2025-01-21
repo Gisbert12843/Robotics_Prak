@@ -2,6 +2,8 @@
 
 import rclpy
 from rclpy.node import Node
+from nav2_msgs.action import NavigateToPose
+from rclpy.action import ActionClient
 
 from webots_spot_msgs.srv import SpotMotion
 
@@ -16,11 +18,17 @@ class SubscriberClientNodeAsync(Node):
             self.get_logger().warn("waiting for stand service")
 
         while not self.sit_cli.wait_for_service(1):
-            self.get_logger().warn("waiting for sit service")
+            self.get_logger().warn("waiting for lie_down service")
+
+        self.result_subscription = self.create_subscription(
+            NavigateToPose.Result,
+            "/navigate_to_pose/_action/result",
+            self.goal_callback,
+            10,
+        )
 
         self.req = SpotMotion.Request()
         self.is_sitting = False
-        self.create_timer(3, self.spot_callback)
 
     def spot_callback(self):
         if self.is_sitting:
@@ -29,6 +37,12 @@ class SubscriberClientNodeAsync(Node):
         else:
             self.future = self.sit_cli.call_async(self.req)
             self.is_sitting = True
+
+    def goal_callback(self, msg):
+        if msg.status == 4:
+            self.get_logger().info("Received Goal.")
+            # self.future = self.sit_cli.call_async(self.req)
+            self.create_timer(3, self.spot_callback)
 
 
 def main(args=None):
